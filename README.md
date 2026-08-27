@@ -1,107 +1,149 @@
-👋 Hi, I'm AMRHZ
+# 👋 AMRHZ — AI System Builder
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AMRHZ+AI+System+Builder;Multi-Agent+AI+Architect;Building+Future+AI+Ecosystems;Automation+%7C+RAG+%7C+Orchestration" />
-</p>---
-
-🌐 Central Hub
-
-🔗 https://my.play/AMRHZ13
-
-«This is my main identity node, connecting all systems under the AMRHZ ecosystem.»
+  <!-- Typing banner preserved as a decorative header -->
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AMRHZ+AI+System+Builder;Multi-Agent+AI+Architect;Building+Future+AI+Ecosystems" />
+</p>
 
 ---
 
-🚀 Live Ecosystem
+## 🌐 Central Hub
 
-- 🌍 Lovable App (Live Preview)
-  https://preview--ap1-ecosystem.lovable.app/
+Main interactive hub for exploring the AMRHZ ecosystem, connecting AI systems, projects, and interfaces in one place.
 
-- 💻 GitHub System Core
-  https://github.com/amirulhafiz1132002-code
-
----
-
-🧠 AMRHZ AI System
-
-An evolving AI ecosystem built for:
-
-- Multi-LLM orchestration
-- Autonomous agents
-- Memory + learning system
-- Real-time execution
-- Scalable architecture
+- Lovable App (Main interactive hub): https://preview--ap1-ecosystem.lovable.app/
+- GitHub (Engineering / source): https://github.com/amirulhafiz1132002-code
 
 ---
 
-🧩 System Flow
+## ⭐ Featured Projects
 
-graph TD
-A[User] --> B[Play Profile]
-B --> C[GitHub]
-B --> D[Lovable App]
-C --> E[AI Core]
-D --> E
-E --> F[Dashboard]
-F --> A
+Projects listed are confirmed to exist in this profile/repository list.
+
+- AMRHZ-AI-13 — https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13
+- AP1-WEB-Console — https://github.com/amirulhafiz1132002-code/AP1-WEB-Console
+- AMRHZ Architecture Core — https://github.com/amirulhafiz1132002-code/amrhz-architecture-core
+- AP1 Ecosystem (private) — https://github.com/amirulhafiz1132002-code/ap1-ecosystem
 
 ---
 
-📊 GitHub Stats
+## 🚀 Live Ecosystem
+
+Explore the live surfaces and where to interact:
+
+- Lovable App — https://preview--ap1-ecosystem.lovable.app/ (primary interactive experience)
+- GitHub system core — https://github.com/amirulhafiz1132002-code
+
+---
+
+## 🧠 AMRHZ AI System (short)
+
+An evolving, developer-first AI ecosystem focused on:
+
+- Multi-LLM orchestration and multi-agent systems
+- RAG (retrieval-augmented generation) + memory layers
+- Real-time execution and observability via dashboards
+- Modular, testable components
+
+---
+
+## 🏗️ Conceptual System Architecture
+
+This is a conceptual overview showing how pieces relate. It is not an exhaustive deployment diagram.
+
+User
+↓
+AMRHZ Central Hub (Lovable App)
+↓
+AP1 / Interfaces (AP1-WEB-Console, web views)
+↓
+AI System / Orchestration (AMRHZ core components)
+↓
+LLM / Agents / RAG / Memory
+↓
+Execution / Dashboard (observability & controls)
+
+---
+
+## 🔐 Engineering & Security
+
+Engineering practices reflected in this profile and repositories:
+
+- Modular architecture — core components separated into focused repos (architecture core, AP1 console).
+- Testing & quality — frontend uses Create React App conventions and test scripts (see /frontend/README.md).
+- CI / Deployment — GitHub Pages is used for AP1-WEB-Console (project homepage available).
+- Documentation — repository READMEs and in-repo docs provide onboarding and run instructions.
+- Security hygiene — standard repository settings, commit signoff enabled on some repos; no claims of certifications or guarantees are made here.
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=amirulhafiz1132002-code&show_icons=true&theme=tokyonight" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=amirulhafiz1132002-code&theme=tokyonight" />
-</p>---
+</p>
 
-📈 Visitor Counter
+## 📈 Visitor Counter
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=amirulhafiz1132002-code&label=PROFILE+VIEWS&color=0e75b6&style=flat" />
-</p>---
-
-🧠 AI System Status (Live Concept)
-
-SYSTEM: AMRHZ AI CORE
-STATUS: ACTIVE
-MODE: EVOLVING
-AGENTS: MULTI-LAYER
-LEARNING: ENABLED
-ORCHESTRATION: RUNNING
-LAST_UPDATE: AUTO
+</p>
 
 ---
 
-⚡ Current Focus
+## ⚡ Current Focus
 
-- 🤖 Multi-Agent AI System
-- 🧠 RAG + Memory Integration
-- 🔗 System Orchestration
-- 🌐 AI Dashboard (AP1)
-- 🚀 Public AI Ecosystem
-
----
-
-🛠️ Tech Stack
-
-Frontend: HTML, CSS, JS
-Backend: Node.js / Python
-AI: OpenAI / Gemini / LLM Integration
-System: Modular Architecture
-Future: Autonomous Agents + Watcher System
+- Multi-Agent AI Systems
+- RAG + Memory
+- System Orchestration
+- AP1 / AI Dashboard
+- Public AI Ecosystem
 
 ---
 
-🤝 Connect
+## 🛠️ Tech Stack (high level)
 
-- 🌐 Play Hub: https://my.play/AMRHZ13
-- 💻 GitHub: https://github.com/amirulhafiz1132002-code
+Frontend
+- HTML, CSS, JavaScript, React (Create React App)
+
+Backend
+- Node.js, Python
+
+AI / LLM
+- OpenAI, Google Gemini (LLM integrations and RAG tooling)
+
+Architecture
+- Modular components, TypeScript in ecosystem repos
+
+Future / Research
+- Autonomous agents, memory systems, orchestration patterns
 
 ---
 
-💭 Philosophy
+## 🤝 Connect
 
-«Build in public.
-Break systems.
-Learn fast.
-Evolve beyond limits. 🚀»
+- Lovable Central Hub: https://preview--ap1-ecosystem.lovable.app/ (primary)
+- GitHub: https://github.com/amirulhafiz1132002-code
+- Play Hub (identity/profile): https://my.play/AMRHZ13
+
+---
+
+## 💭 Philosophy
+
+Build in public. Break systems. Learn fast. Evolve beyond limits. 🚀
+
+---
+
+## What I changed (concise)
+
+- Reorganized README into a clear, developer-focused navigation aligned with the AMRHZ ecosystem.
+- Made Lovable App the primary Central Hub and preserved the my.play link (moved to Connect).
+- Added a Featured Projects section using only repositories that exist in the profile and linked them.
+- Rewrote the system flow as a conceptual architecture diagram (textual) that shows relationships between user, hub, interfaces, AI orchestration, LLMs/agents, and execution/dashboard.
+- Added an Engineering & Security section reflecting practices evidenced in the repositories (modularity, tests, CI/pages, docs).
+- Kept original GitHub stats and visitor counter images unchanged.
+
+---
+
+If you'd like, I can: make the Featured Projects section show brief descriptions for each repo (pulled from their README/description) or add repository badges (license, stars) — tell me which option you prefer.
