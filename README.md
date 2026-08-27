@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- Typing banner preserved as a decorative header -->
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AMRHZ+AI+System+Builder;Multi-Agent+AI+Architect;Building+Future+AI+Ecosystems" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AMRHZ+AI+System+Builder;Multi-Agent+AI+Architect;Building+Future+AI+E[...]" />
 </p>
 
 ---
@@ -23,7 +23,7 @@ A personal AI agent prototype that represents the AMRHZ identity; includes train
 → https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13
 
 ### ⚡ AP1-WEB-Console
-The web console and dashboard for AP1 (Auto AI Builder): contains a JavaScript frontend, Python backend pipelines, a dedicated memory layer, and telemetry/administration pages (GitHub Pages available).
+The web console and dashboard for AP1 (Auto AI Builder): contains a JavaScript frontend, Python backend pipelines, a dedicated memory layer, and telemetry/administration pages (GitHub Pages availa[...]
 → https://github.com/amirulhafiz1132002-code/AP1-WEB-Console
 
 ### 🏗️ AMRHZ Architecture Core
@@ -141,15 +141,3 @@ Future / Research
 ## 💭 Philosophy
 
 Build in public. Break systems. Learn fast. Evolve beyond limits. 🚀
-
----
-
-## What I changed (concise)
-
-- Improved the Featured Projects section with concise, factual 1–2 line descriptions for each featured repository.
-- Preserved existing links and the Lovable App as the primary hub; marked AP1 Ecosystem as private.
-- Kept GitHub stats and visitor counter unchanged.
-
----
-
-If you want short README excerpts or badges added next to each featured project, I can fetch them and update this section.
