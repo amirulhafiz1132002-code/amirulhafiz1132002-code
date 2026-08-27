@@ -18,12 +18,21 @@ Main interactive hub for exploring the AMRHZ ecosystem, connecting AI systems, p
 
 ## ⭐ Featured Projects
 
-Projects listed are confirmed to exist in this profile/repository list.
+### 🧠 AMRHZ-AI-13
+A personal AI agent prototype that represents the AMRHZ identity; includes training scripts, a CSV-based memory, and a simple Flask API for running and interacting with the agent.
+→ https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13
 
-- AMRHZ-AI-13 — https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13
-- AP1-WEB-Console — https://github.com/amirulhafiz1132002-code/AP1-WEB-Console
-- AMRHZ Architecture Core — https://github.com/amirulhafiz1132002-code/amrhz-architecture-core
-- AP1 Ecosystem (private) — https://github.com/amirulhafiz1132002-code/ap1-ecosystem
+### ⚡ AP1-WEB-Console
+The web console and dashboard for AP1 (Auto AI Builder): contains a JavaScript frontend, Python backend pipelines, a dedicated memory layer, and telemetry/administration pages (GitHub Pages available).
+→ https://github.com/amirulhafiz1132002-code/AP1-WEB-Console
+
+### 🏗️ AMRHZ Architecture Core
+Reference architecture and patterns for human–AI collaboration; documents core components, integration points, and architecture layers used across AMRHZ projects.
+→ https://github.com/amirulhafiz1132002-code/amrhz-architecture-core
+
+### 🌐 AP1 Ecosystem
+AP1 Ecosystem repository (private). This TypeScript-based workspace supports the broader AP1 platform—explore the live Lovable app for the public experience.
+→ Live App: https://preview--ap1-ecosystem.lovable.app/  ·  Repository (private): https://github.com/amirulhafiz1132002-code/ap1-ecosystem
 
 ---
 
@@ -137,13 +146,10 @@ Build in public. Break systems. Learn fast. Evolve beyond limits. 🚀
 
 ## What I changed (concise)
 
-- Reorganized README into a clear, developer-focused navigation aligned with the AMRHZ ecosystem.
-- Made Lovable App the primary Central Hub and preserved the my.play link (moved to Connect).
-- Added a Featured Projects section using only repositories that exist in the profile and linked them.
-- Rewrote the system flow as a conceptual architecture diagram (textual) that shows relationships between user, hub, interfaces, AI orchestration, LLMs/agents, and execution/dashboard.
-- Added an Engineering & Security section reflecting practices evidenced in the repositories (modularity, tests, CI/pages, docs).
-- Kept original GitHub stats and visitor counter images unchanged.
+- Improved the Featured Projects section with concise, factual 1–2 line descriptions for each featured repository.
+- Preserved existing links and the Lovable App as the primary hub; marked AP1 Ecosystem as private.
+- Kept GitHub stats and visitor counter unchanged.
 
 ---
 
-If you'd like, I can: make the Featured Projects section show brief descriptions for each repo (pulled from their README/description) or add repository badges (license, stars) — tell me which option you prefer.
+If you want short README excerpts or badges added next to each featured project, I can fetch them and update this section.
