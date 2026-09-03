@@ -4,21 +4,51 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AMRHZ+AI+System+Builder;Multi-Agent+AI+Architect;Building+Future+AI+Ecosystem" />
 </p>
 
+<p align="center">
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><img src="https://img.shields.io/badge/🌐_Official_Website-Visit-blue?style=for-the-badge" alt="Official Website" /></a>
+  <a href="https://preview--ap1-ecosystem.lovable.app/"><img src="https://img.shields.io/badge/🚀_AP1_Hub-Launch-success?style=for-the-badge" alt="Launch AP1 Hub" /></a>
+  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/💻_GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub Profile" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/GitHub-@amirulhafiz1132002--code-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><img src="https://img.shields.io/badge/Website-AMRHZ-00AEEF?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+</p>
+
+> **Independent AI system builder focused on connecting Human + AI + Systems.**
+
 ---
 
 ## 🌐 Central Hub
 
 Main interactive hub for exploring the AMRHZ ecosystem, connecting AI systems, projects, and interfaces in one place.
 
-- **Official Website — AMRHZ INDEPENDENT DIGITAL SPACE:** https://amrhz-websites.amirulhafiz1132002.workers.dev/
-- **Lovable App — Main Interactive Hub:** https://preview--ap1-ecosystem.lovable.app/
-- **GitHub — Engineering / Source:** https://github.com/amirulhafiz1132002-code
+<p align="center">
+  <a href="https://preview--ap1-ecosystem.lovable.app/">🚀 <strong>Launch AP1 Hub</strong></a> ·
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">🌐 <strong>Visit Website</strong></a> ·
+  <a href="https://github.com/amirulhafiz1132002-code">💻 <strong>GitHub</strong></a>
+</p>
+
+### 🔗 Quick Redirects
+
+| Destination | Redirect |
+|---|---|
+| 🚀 AP1 Interactive Hub | [Launch AP1 Hub](https://preview--ap1-ecosystem.lovable.app/) |
+| 🌐 AMRHZ Official Website | [Visit Website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
+| 🧠 AI System Core | [Explore AMRHZ-AI-13](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
+| ⚡ Web Console | [Open AP1-WEB-Console](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
+| 🏗️ Architecture | [Explore Architecture Core](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
+
+---
+
+## 📡 Social & Developer Links
 
 <p align="center">
-  <a href="https://preview--ap1-ecosystem.lovable.app">
-    <img src="https://img.shields.io/badge/Launch%20AP1%20Hub-Click%20Here-blue?style=for-the-badge" alt="Launch AP1 Hub"/>
-  </a>
+  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><img src="https://img.shields.io/badge/Website-Explore-00AEEF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
 </p>
+
+> LinkedIn is intentionally **removed for now** and can be added back later when the profile link is ready.
 
 ---
 
@@ -27,31 +57,32 @@ Main interactive hub for exploring the AMRHZ ecosystem, connecting AI systems, p
 ### 🧠 AMRHZ-AI-13
 A personal AI agent prototype representing the AMRHZ identity. Includes training scripts, CSV-based memory, intent detection, self-learning components, and a Flask API for interacting with the agent.
 
-→ https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13
+→ [Explore AMRHZ-AI-13](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13)
 
 ### ⚡ AP1-WEB-Console
 The web console and dashboard for AP1 (Auto AI Builder), including frontend interfaces, backend pipelines, memory components, telemetry, and administration views.
 
-→ https://github.com/amirulhafiz1132002-code/AP1-WEB-Console
+→ [Explore AP1-WEB-Console](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console)
 
 ### 🏗️ AMRHZ Architecture Core
 Reference architecture and patterns for human–AI collaboration, documenting core components, integration points, and architecture layers used across AMRHZ projects.
 
-→ https://github.com/amirulhafiz1132002-code/amrhz-architecture-core
+→ [Explore Architecture Core](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core)
 
 ### 🌐 AP1 Ecosystem
 AP1 Ecosystem repository (private). This TypeScript-based workspace supports the broader AP1 platform and its evolving AI-system architecture.
 
-- **Live App:** https://preview--ap1-ecosystem.lovable.app/
-- **Repository (private):** https://github.com/amirulhafiz1132002-code/ap1-ecosystem
+- **Live App:** [Open AP1 Ecosystem](https://preview--ap1-ecosystem.lovable.app/)
+- **Repository (private):** [View Repository](https://github.com/amirulhafiz1132002-code/ap1-ecosystem)
 
 ---
 
 ## 🚀 Live Ecosystem
 
-- **Lovable App:** https://preview--ap1-ecosystem.lovable.app/ — primary interactive experience
-- **Official Website:** https://amrhz-websites.amirulhafiz1132002.workers.dev/
-- **GitHub System Core:** https://github.com/amirulhafiz1132002-code
+<p align="center">
+  <a href="https://preview--ap1-ecosystem.lovable.app/"><img src="https://img.shields.io/badge/🚀_AP1-Live_App-success?style=for-the-badge" alt="AP1 Live App" /></a>
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><img src="https://img.shields.io/badge/🌐_AMRHZ-Live_Website-blue?style=for-the-badge" alt="AMRHZ Live Website" /></a>
+</p>
 
 ---
 
