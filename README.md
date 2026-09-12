@@ -1,28 +1,19 @@
 👋 AMRHZ — AI System Builder
 
 <p align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=650&lines=AMRHZ+AI+System+Builder;Human+%2B+AI+System+Development;Building+AI+Systems+Step+by+Step"
-    alt="AMRHZ typing banner"
-  />
-</p><p align="center">
-  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">
-    <img src="https://img.shields.io/badge/🌐_Official_Website-Visit-blue?style=for-the-badge" alt="Official Website" />
-  </a>
-  <a href="https://preview--ap1-ecosystem.lovable.app/">
-    <img src="https://img.shields.io/badge/🚀_AP1-Ecosystem-success?style=for-the-badge" alt="AP1 Ecosystem" />
-  </a>
-  <a href="https://github.com/amirulhafiz1132002-code">
-    <img src="https://img.shields.io/badge/💻_GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub Profile" />
-  </a>
-</p><p align="center">
-  <a href="https://github.com/amirulhafiz1132002-code">
-    <img src="https://img.shields.io/badge/GitHub-@amirulhafiz1132002--code-181717?style=flat-square&logo=github" alt="GitHub" />
-  </a>
-  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">
-    <img src="https://img.shields.io/badge/Website-AMRHZ-00AEEF?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" />
-  </a>
-</p>«Building practical connections between Human + AI + Systems.»
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=650&lines=AMRHZ+AI+System+Builder;Human+%2B+AI+System+Development;Building+AI+Systems+Step+by+Step" alt="AMRHZ typing banner" />
+</p>
+<p align="center">
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><img src="https://img.shields.io/badge/🌐_Official_Website-Visit-blue?style=for-the-badge" alt="Official Website" /></a>
+  <a href="https://preview--ap1-ecosystem.lovable.app/"><img src="https://img.shields.io/badge/🚀_AP1-Ecosystem-success?style=for-the-badge" alt="AP1 Ecosystem" /></a>
+  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/💻_GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub Profile" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/GitHub-@amirulhafiz1132002--code-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><img src="https://img.shields.io/badge/Website-AMRHZ-00AEEF?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+</p>
+
+«Building practical connections between Human + AI + Systems.»
 
 ---
 
@@ -34,20 +25,20 @@ This profile is the central entry point to my public repositories, experiments, 
   <a href="https://preview--ap1-ecosystem.lovable.app/">🚀 <strong>Open AP1 Ecosystem</strong></a> ·
   <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">🌐 <strong>Official Website</strong></a> ·
   <a href="https://github.com/amirulhafiz1132002-code">💻 <strong>GitHub</strong></a>
-</p>🧩 Current Ecosystem
+</p>
 
+🧩 Current Ecosystem
+
+```mermaid
 flowchart LR
     A["AMRHZ<br/>CURRENT ECOSYSTEM"]
-
     A --> W["🌐 AMRHZ WEBSITE"]
     A --> P["⚡ AP1 ECOSYSTEM"]
-
     W --> W1["Home"]
     W --> W2["Systems"]
     W --> W3["Projects"]
     W --> W4["Terminal<br/><small>Simulated</small>"]
     W --> W5["About"]
-
     P --> P1["Dashboard"]
     P --> P2["Chat"]
     P --> P3["Memory"]
@@ -55,29 +46,66 @@ flowchart LR
     P --> P5["System Status"]
     P --> P6["Agents"]
     P --> P7["Providers"]
-
     A -.-> R["REAL STATE > UI SIMULATION"]
-
     classDef root fill:#0b1117,stroke:#00e5ff,color:#ffffff,stroke-width:2px;
     classDef website fill:#101820,stroke:#a8ff00,color:#ffffff;
     classDef ap1 fill:#101820,stroke:#00e5ff,color:#ffffff;
     classDef sim fill:#17140a,stroke:#ffcc00,color:#ffffff;
     classDef rule fill:#0b1117,stroke:#666,color:#cccccc;
-
     class A root;
     class W,W1,W2,W3,W5 website;
     class P,P1,P2,P3,P4,P5,P6,P7 ap1;
     class W4 sim;
     class R rule;
+```
 
 🔗 Quick Redirects
 
-Project| Status| Link
-🚀 AP1 Ecosystem| 🟢 Available| "Open AP1" (https://preview--ap1-ecosystem.lovable.app/)
-🌐 AMRHZ Website| 🟢 Available| "Open Website" (https://amrhz-websites.amirulhafiz1132002.workers.dev/)
-🧠 AMRHZ-AI-13| 🟢 Repository| "View Repository" (https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13)
-⚡ AP1-WEB-Console| 🟢 Repository| "View Repository" (https://github.com/amirulhafiz1132002-code/AP1-WEB-Console)
-🏗️ Architecture Core| 🟢 Repository| "View Repository" (https://github.com/amirulhafiz1132002-code/amrhz-architecture-core)
+| Project | Status | Link |
+|---|---|---|
+| 🚀 AP1 Ecosystem | 🟢 Available | [Open AP1](https://preview--ap1-ecosystem.lovable.app/) |
+| 🌐 AMRHZ Website | 🟢 Available | [Open Website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
+| 🧠 AMRHZ-AI-13 | 🟢 Repository | [View Repository](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
+| ⚡ AP1-WEB-Console | 🟢 Repository | [View Repository](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
+| 🏗️ Architecture Core | 🟢 Repository | [View Repository](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
+
+---
+
+🧠 Human–AI Memory Bridge — Architectural Checkpoint
+
+AMRHZ is documenting a proposed **Human–AI Memory Bridge**: a human-readable, inspectable state layer intended to preserve human intention, AI interpretation, decisions, assumptions, unknowns, evidence, failures, and verified real state across AI systems, sessions, applications, and devices.
+
+**Status:** PROPOSED / LOCKED FOR DEVELOPMENT
+
+Core flow:
+
+```text
+HUMAN INTENTION
+      ↓
+AI INTERPRETATION
+      ↓
+STRUCTURED SHARED STATE
+      ↓
+SYSTEM / AI ACTION
+      ↓
+REAL EVIDENCE
+      ↓
+HUMAN VERIFICATION
+      ↓
+UPDATED REAL STATE
+```
+
+Principles:
+
+- **REAL STATE > UI SIMULATION**
+- **HUMAN INTENTION > AI ASSUMPTION**
+- **EVIDENCE > CLAIM**
+- **VERIFICATION > BLIND TRUST**
+- **FAILURE IS DATA**
+
+This is an architectural direction, not a claim that the system is already implemented or scientifically proven.
+
+📄 Full checkpoint: [docs/AMRHZ-HUMAN-AI-MEMORY-BRIDGE.md](docs/AMRHZ-HUMAN-AI-MEMORY-BRIDGE.md)
 
 ---
 
@@ -85,17 +113,18 @@ Project| Status| Link
 
 The ecosystem is being developed incrementally.
 
-Area| Current State
-AMRHZ-AI-13| 🟢 Existing prototype
-CSV-based memory| 🟢 Existing
-Intent detection| 🟢 Existing
-Flask API foundation| 🟢 Existing
-AP1 web ecosystem| 🟢 Existing
-AP1-WEB-Console architecture| 🟢 Existing
-Human-AI architecture documentation| 🟢 Existing
-Larger orchestration system| 🟡 Development
-Expanded persistent memory| 🟡 Development
-Broader autonomous workflows| 🔵 Planned
+| Area | Current State |
+|---|---|
+| AMRHZ-AI-13 | 🟢 Existing prototype |
+| CSV-based memory | 🟢 Existing |
+| Intent detection | 🟢 Existing |
+| Flask API foundation | 🟢 Existing |
+| AP1 web ecosystem | 🟢 Existing |
+| AP1-WEB-Console architecture | 🟢 Existing |
+| Human-AI architecture documentation | 🟢 Existing |
+| Larger orchestration system | 🟡 Development |
+| Expanded persistent memory | 🟡 Development |
+| Broader autonomous workflows | 🔵 Planned |
 
 «Principle: show what exists first. Describe future capabilities separately.»
 
@@ -116,8 +145,7 @@ The repository currently documents:
 - Flask API
 - CLI agent execution
 
-Repository:
-"github.com/amirulhafiz1132002-code/AMRHZ-AI-13" (https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13)
+Repository: [github.com/amirulhafiz1132002-code/AMRHZ-AI-13](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13)
 
 ---
 
@@ -134,8 +162,7 @@ A web-based AMRHZ / AP1 workspace repository containing documented layers for:
 
 The repository also contains documented dashboard and telemetry-oriented pages.
 
-Repository:
-"github.com/amirulhafiz1132002-code/AP1-WEB-Console" (https://github.com/amirulhafiz1132002-code/AP1-WEB-Console)
+Repository: [github.com/amirulhafiz1132002-code/AP1-WEB-Console](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console)
 
 ---
 
@@ -152,8 +179,7 @@ It currently documents:
 - Development patterns
 - System organization
 
-Repository:
-"github.com/amirulhafiz1132002-code/amrhz-architecture-core" (https://github.com/amirulhafiz1132002-code/amrhz-architecture-core)
+Repository: [github.com/amirulhafiz1132002-code/amrhz-architecture-core](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core)
 
 ---
 
@@ -161,10 +187,10 @@ Repository:
 
 A private AP1 ecosystem repository connected to the available AP1 web application.
 
-Repository status: 🔒 Private
+Repository status: 🔒 Private  
 Web interface: 🟢 Available
 
-"Open AP1 Ecosystem" (https://preview--ap1-ecosystem.lovable.app/)
+[Open AP1 Ecosystem](https://preview--ap1-ecosystem.lovable.app/)
 
 ---
 
@@ -172,6 +198,7 @@ Web interface: 🟢 Available
 
 The broader AMRHZ direction is an evolving AI-system workspace connecting:
 
+```text
 Human
   ↓
 Development & Decision
@@ -183,6 +210,7 @@ AI Systems
 Memory / Interfaces / APIs
   ↓
 Future Orchestration
+```
 
 This architecture is evolving.
 
@@ -194,7 +222,7 @@ Not every layer represented in the conceptual architecture is currently implemen
 
 The development approach is based on:
 
-REAL STATE > UI SIMULATION
+**REAL STATE > UI SIMULATION**
 
 That means:
 
@@ -221,6 +249,7 @@ Current development principles include:
 
 Development Loop
 
+```text
 Understand
    ↓
 Build
@@ -232,28 +261,24 @@ Verify
 PASS
    ↓
 Next Task
+```
 
 ---
 
 📊 GitHub Stats
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=amirulhafiz1132002-code&show_icons=true&theme=tokyonight"
-    alt="AMRHZ GitHub Stats"
-  />
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=amirulhafiz1132002-code&theme=tokyonight"
-    alt="AMRHZ GitHub Streak"
-  />
-</p>👁️ Profile Views
+  <img src="https://github-readme-stats.vercel.app/api?username=amirulhafiz1132002-code&show_icons=true&theme=tokyonight" alt="AMRHZ GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amirulhafiz1132002-code&theme=tokyonight" alt="AMRHZ GitHub Streak" />
+</p>
+
+👁️ Profile Views
 
 <p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=amirulhafiz1132002-code&label=PROFILE+VIEWS&color=0e75b6&style=flat"
-    alt="Profile Views"
-  />
-</p>---
+  <img src="https://komarev.com/ghpvc/?username=amirulhafiz1132002-code&label=PROFILE+VIEWS&color=0e75b6&style=flat" alt="AMRHZ Profile Views" />
+</p>
+
+---
 
 🎯 Current Focus
 
@@ -289,28 +314,28 @@ The current repositories document the use of technologies including:
 
 Frontend
 
-HTML
-CSS
-JavaScript
+HTML  
+CSS  
+JavaScript  
 TypeScript
 
 Backend
 
-Python
-Flask
+Python  
+Flask  
 Node.js
 
 AI / Systems
 
-AI APIs
-Agent systems
-Memory systems
+AI APIs  
+Agent systems  
+Memory systems  
 API-based integration
 
 Infrastructure / Deployment
 
-GitHub
-Cloudflare
+GitHub  
+Cloudflare  
 Web environments
 
 «Technology usage varies by repository. This list represents technologies documented across the ecosystem rather than one single application stack.»
@@ -319,26 +344,33 @@ Web environments
 
 📦 AMRHZ-AI-13 — Basic Usage
 
+```bash
 git clone https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13
 cd AMRHZ-AI-13
-
 pip install -r requirements.txt
 python run.py
+```
 
 API
 
+```bash
 python api/api_server.py
+```
 
 Example endpoint:
 
+```text
 POST /chat
 Content-Type: application/json
+```
 
 Example request:
 
+```json
 {
   "message": "build system"
 }
+```
 
 «Usage details should always be checked against the repository's current implementation before running.»
 
@@ -354,6 +386,7 @@ Completed / Existing
 - [x] Flask API foundation
 - [x] AP1 web ecosystem foundation
 - [x] Human-AI architecture documentation
+- [x] Human–AI Memory Bridge architectural checkpoint
 
 Development
 
@@ -362,6 +395,7 @@ Development
 - [ ] Connect additional interfaces
 - [ ] Improve observability
 - [ ] Continue AP1 workspace development
+- [ ] Design Human–AI Memory Bridge experiment
 
 Future
 
