@@ -8,6 +8,7 @@
   <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><img src="https://img.shields.io/badge/🌐_Official_Website-Visit-blue?style=for-the-badge" alt="Official Website" /></a>
   <a href="https://preview--ap1-ecosystem.lovable.app/"><img src="https://img.shields.io/badge/🚀_AP1-Ecosystem-success?style=for-the-badge" alt="AP1 Ecosystem" /></a>
   <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/💻_GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub Profile" /></a>
+  <a href="https://chat.whatsapp.com/Ji5YQg3mBCLGZ5C6tiZPuM"><img src="https://img.shields.io/badge/👥_WhatsApp-Community-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="AMRHZ WhatsApp Community" /></a>
 </p>
 
 ---
@@ -219,6 +220,7 @@ Across the ecosystem, the documented projects use:
 | 🧠 **AMRHZ-AI-13** | [View Repository](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) | 🟢 Repository |
 | ⚡ **AP1-WEB-Console** | [View Repository](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) | 🟢 Repository |
 | 🏗️ **Architecture Core** | [View Repository](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) | 🟢 Repository |
+| 👥 **AMRHZ Community** | [Join WhatsApp Community](https://chat.whatsapp.com/Ji5YQg3mBCLGZ5C6tiZPuM) | 🟢 Community |
 
 ---
 
