@@ -20,7 +20,7 @@ I'm **Muhammad Amirul Hafiz (AMRHZ)**, an AI systems architect and software deve
 - **AI orchestration** – Designing systems where humans and AI collaborate effectively
 - **Human–AI memory bridges** – Creating inspectable, shared state between human intention and AI interpretation
 - **API-first architectures** – Building systems around clean, composable interfaces
-- **Agent-based workflows** – Developing intelligent, autonomous systems with verifiable behavior
+- **Agent-based workflows** – Exploring multi-agent orchestration with verifiable behavior
 - **Cloud/serverless infrastructure** – Deploying systems on modern cloud platforms
 - **Public, iterative development** – Building in the open on GitHub with transparent progress
 
@@ -34,13 +34,12 @@ I'm **Muhammad Amirul Hafiz (AMRHZ)**, an AI systems architect and software deve
 
 ### 🧠 AMRHZ-AI-13 — AI Prototype
 
-An early AMRHZ AI system prototype documenting:
+An early AMRHZ AI system prototype and documented foundation for experimentation with:
 
-- **CSV-based memory** – Simple, inspectable state storage
-- **Intent detection** – Classifying and routing user intentions
-- **Self-learning module** – Training improvements from interactions
-- **Flask API** – RESTful interface for system integration
-- **CLI agent** – Command-line interaction interface
+- **CSV-based state** – Simple, inspectable storage
+- **Intent detection** – Message classification and routing
+- **Flask API** – RESTful interface
+- **CLI interface** – Command-line interaction
 
 **Status:** 🟢 Existing prototype  
 **Repository:** [AMRHZ-AI-13](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13)
@@ -57,13 +56,13 @@ python api/api_server.py   # API mode
 
 ### ⚡ AP1-WEB-Console — Workspace & Dashboard
 
-A web-based workspace for AMRHZ/AP1 systems with:
+A web-based application workspace for AMRHZ/AP1 systems with:
 
-- **Backend** – Python logic layer and API handling
-- **Frontend** – JavaScript/HTML5/CSS3 dashboards
-- **Memory** – Dedicated persistence and context retention
-- **Testing** – Automated verification and test pipelines
-- **Dashboard interfaces** – Telemetry, control, and monitoring
+- **Backend** – FastAPI/Python API layer
+- **Frontend** – React-based application interface
+- **GitHub integration** – Read-oriented repository/user/stat access
+- **Runtime state boundary** – MongoDB is optional and used for status persistence when configured
+- **Truth-oriented development** – Runtime claims are separated from static UI/documentation
 
 **Status:** 🟢 Existing web application  
 **Repository:** [AP1-WEB-Console](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console)
@@ -87,16 +86,9 @@ A documentation and architecture repository focused on Human + AI collaboration 
 
 ### 🚀 AP1 Ecosystem — Live Web Application
 
-The AP1 ecosystem is a web-based interface to AMRHZ systems featuring:
+The AP1 ecosystem is a web-based interface for the broader AMRHZ/AP1 workspace. Its interface direction includes workspace, AI, memory, terminal, agent, and provider areas, while implementation status is tracked separately from visual/UI presence.
 
-- **Dashboard** – System monitoring and control
-- **Chat** – Conversational AI interface
-- **Memory** – Persistent context and learning
-- **Terminal** – Command execution layer
-- **Agents** – Autonomous task execution
-- **Providers** – External service integrations
-
-**Status:** 🟢 Available live  
+**Status:** 🟢 Public preview available  
 **Access:** [Open AP1 Ecosystem](https://preview--ap1-ecosystem.lovable.app/)
 
 ---
@@ -155,12 +147,12 @@ Key values:
 | Intent detection | 🟢 Existing | Message classification and routing |
 | Flask API foundation | 🟢 Existing | REST interface for system integration |
 | AP1 web ecosystem | 🟢 Existing | Live dashboard and web interface |
-| AP1-WEB-Console | 🟢 Existing | Backend, frontend, memory, testing layers |
+| AP1-WEB-Console | 🟡 Development | React + FastAPI workspace; GitHub read integration verified |
 | Human-AI architecture docs | 🟢 Existing | Design patterns and collaboration workflows |
+| Neural visual layer | 🟡 Development | Animated architecture layer integrated and browser-verified |
 | Multi-agent orchestration | 🟡 Development | Expanding beyond single-agent systems |
-| Enhanced memory systems | 🟡 Development | Stronger retrieval and context awareness |
+| Enhanced memory systems | 🔵 Planned | Stronger retrieval and context awareness |
 | Autonomous workflows | 🔵 Planned | More complex, independent agent behavior |
-| Broader system deployment | 🔵 Planned | Additional cloud and deployment paths |
 
 ---
 
@@ -178,7 +170,7 @@ The approach is based on:
 - 🔐 **Keep secrets out of source code** – Security by design
 - 🔄 **Improve incrementally** – Small, verifiable steps forward
 
-The goal is **not** to make the system look advanced. The goal is to make the system **actually work**.
+The goal is **not** to make the system look advanced. The goal is to make the system **actually work**. Visual layers may represent architecture, but they do not imply runtime capability unless evidence confirms it.
 
 ---
 
@@ -234,8 +226,10 @@ Across the ecosystem, the documented projects use:
 - [x] AP1 web ecosystem interface
 - [x] Human-AI architecture documentation
 - [x] Human–AI Memory Bridge architectural design
+- [x] AP1 neural visual layer prototype and browser verification
 
 ### In Development
+- [ ] Neural visual layer runtime-state integration
 - [ ] Multi-agent orchestration
 - [ ] Enhanced memory and retrieval
 - [ ] Additional interface connections
