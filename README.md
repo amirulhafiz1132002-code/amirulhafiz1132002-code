@@ -1,3 +1,94 @@
+## 🧭 Latest AMRHZ Engineering State — 2026-10-04
+
+### AP1-WEB-Console: VERIFY phase
+
+The current engineering phase is **VERIFY** following P0 test-infrastructure remediation.
+
+- **P0 verification:** 29/29 tests PASS
+- **Warnings:** 3 deprecation warnings observed
+- **Latest remediation checkpoint:** `97905d5` — `test: remediate P0 test infrastructure`
+- **Checkpoint working tree:** CLEAN
+- **Application logic:** unchanged by the P0 remediation
+- **Current boundary:** do not EXTEND until the broader test suite and CI state have been inspected and verified
+
+P0 remediation was limited to verification infrastructure, including CORS middleware testing, Motor `find()` mocking, database fixture rebinding, slow-test collection behavior, and CI path handling.
+
+> **Evidence rule:** UI status, badges, or claims do not prove runtime capability. Tests, logs, commits, and direct runtime observations take precedence.
+
+### 🔐 Locked Development Protocol
+
+**STABILIZE → VERIFY → CONNECT → EXTEND**
+
+Per-task execution:
+
+**INSPECT → MINIMAL SAFE CHANGE → TEST → PASS → CHECKPOINT**
+
+Core principles:
+
+- **REAL STATE > UI SIMULATION** — visual state must not imply unverified capability.
+- **EVIDENCE > CLAIM** — evidence outranks status labels.
+- **HUMAN INTENTION > AI ASSUMPTION** — do not silently invent requirements.
+- **VERIFICATION > BLIND TRUST** — inspect before declaring success.
+- **FAILURE IS DATA** — preserve failures as evidence before remediation.
+- **ONE TASK → ONE TEST → PASS → NEXT** — keep boundaries auditable.
+
+### 🏗️ AP1 Architecture Rules
+
+- **GitHub is the source of truth** for code, architecture, documentation, decisions, and development history.
+- **PostgreSQL is the runtime-state boundary** for approvals, jobs, runtime status, telemetry, and execution records.
+- Memory/RAG is **not** the authoritative source of project history.
+- AP1 Hub flow: **Inspect → Propose → Approve / Cancel**.
+- Read-only inspection is preferred by default; execution requires an explicit human approval boundary.
+- Evolution path: **Health → Diagnostics → Missions → Agent Execution → Evaluation → Learning**.
+- Development maturity states: **CONCEPT, PROPOSED, PLANNED, DEVELOPMENT, PARTIAL, VERIFIED, LIVE, BLOCKED, DEPRECATED, UNKNOWN**.
+- **Evidence overrides UI labels.** A component is not VERIFIED or LIVE merely because the interface says so.
+
+### 🧠 Human–AI Memory Bridge
+
+The Human–AI Memory Bridge remains **PROPOSED / LOCKED FOR DEVELOPMENT**. Its intended state flow is:
+
+```text
+HUMAN INTENTION
+      ↓
+AI INTERPRETATION
+      ↓
+STRUCTURED SHARED STATE
+      ↓
+PROPOSED ACTION
+      ↓
+HUMAN APPROVAL
+      ↓
+SYSTEM / AI ACTION
+      ↓
+REAL EVIDENCE
+      ↓
+HUMAN VERIFICATION
+      ↓
+UPDATED REAL STATE
+```
+
+### 📊 Current Ecosystem Interpretation
+
+| Area | State | Boundary |
+|---|---|---|
+| AP1-WEB-Console | VERIFY | P0 29/29 PASS; broader suite/CI inspection remains |
+| Human–AI Memory Bridge | PROPOSED | Architecture documented; implementation separate |
+| Neural visual layer | DEVELOPMENT / PARTIAL | UI is not proof of runtime state |
+| Multi-agent orchestration | DEVELOPMENT | Expansion does not imply verified autonomy |
+| Enhanced memory/retrieval | PLANNED | Not represented as completed capability |
+| Autonomous workflows | PLANNED | Requires explicit approval and verification |
+
+### 🛣️ Next Verification Boundary
+
+1. Inspect the broader AP1-WEB-Console test suite.
+2. Inspect CI run metadata and job creation/results.
+3. Preserve evidence before making any unrelated remediation.
+4. Only after verification, move through CONNECT and then EXTEND.
+
+See the full current-state record in `docs/AMRHZ-CURRENT-STATE.md`.
+
+---
+
 👋 AMRHZ — AI Systems & Software Architecture
 
 <p align="center">
