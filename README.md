@@ -34,41 +34,153 @@ HUMAN INTENTION ↕ AI INTERPRETATION ↕ SHARED STATE
                  HUMAN VERIFICATION
 ```
 
-## 🤝 AI COLLABORATION — INTENT → ACTION → EVIDENCE
+## 🤝 HUMAN–AI COLLABORATION & ARCHITECTURE CONTEXT
 
-This is a collaboration model, not a claim that these agents are currently connected or active. GitHub README Mermaid renders a diagram; it does not run live animation. The flow below uses directional stages to make the handoffs easy to follow.
+This section documents how human intent, AI collaboration, system authority, model orchestration, and verified system state relate across the AMRHZ ecosystem. It is intended as a **shared clarification context for humans and AI systems** reading this repository.
 
-```mermaid
-flowchart LR
-    HUMAN["♾️ AMRHZ<br/>Intent & approval"]
-    GPT["🧠 GPT<br/>Reasoning & architecture"]
-    COPILOT["⚙️ Copilot<br/>Code assistance"]
-    ECOSYSTEM["🔎 AMRHZ AI ecosystem<br/>Research & system context"]
-    AP1["⚡ AP1<br/>Inspect → propose → approved action"]
-    EVIDENCE["🧾 Evidence<br/>Repository · tests · runtime"]
-    STATE["🧭 Reconciled state<br/>Verified · partial · unknown"]
+### 🧑 Human Role
 
-    HUMAN --> GPT
-    HUMAN --> COPILOT
-    HUMAN --> ECOSYSTEM
-    GPT --> AP1
-    COPILOT --> AP1
-    ECOSYSTEM --> AP1
-    AP1 --> EVIDENCE
-    EVIDENCE --> STATE
-    STATE -. "human review" .-> HUMAN
+**Muhammad Amirul Hafiz (AMRHZ)** is the human owner, architect, and primary decision authority for the AMRHZ ecosystem.
 
-    classDef human fill:#172554,stroke:#60a5fa,color:#eff6ff,stroke-width:2px
-    classDef ai fill:#1e1b4b,stroke:#a78bfa,color:#f5f3ff,stroke-width:2px
-    classDef system fill:#042f2e,stroke:#2dd4bf,color:#f0fdfa,stroke-width:2px
-    classDef evidence fill:#292524,stroke:#fbbf24,color:#fffbeb,stroke-width:2px
-    class HUMAN human
-    class GPT,COPILOT,ECOSYSTEM ai
-    class AP1,STATE system
-    class EVIDENCE evidence
+Human responsibility includes:
+
+- **Intent** — defining what the system is trying to accomplish
+- **Architecture** — defining how systems and boundaries should be structured
+- **Authority** — defining what actions are permitted
+- **Approval** — approving actions where required
+- **Verification** — determining whether an outcome is actually evidenced
+- **Direction** — deciding how the ecosystem evolves
+
+AI output is therefore **not automatically treated as truth, authority, or verified system state**.
+
+### 🤖 Current AI Collaboration
+
+Current AI partners contribute different functions within the development workflow:
+
+| Partner | Current collaboration role |
+|---|---|
+| **ChatGPT / GPT** | Primary reasoning, architecture discussion, planning, documentation, verification, and development collaboration |
+| **GitHub Copilot** | Coding assistance, implementation, refactoring, and repository development support |
+| **Meta AI** | Additional perspective, experimentation, and collaborative ideation |
+| **Gemini** | Comparative reasoning, experimentation, and additional analysis |
+| **Perplexity** | Research, external information discovery, source-oriented investigation, and audit perspective |
+
+These are **functional collaboration roles**. They are not claims that every partner is permanently connected, continuously active, autonomous, or authorized to execute AMRHZ systems.
+
+### 🌐 Multi-LLM Architecture
+
+The AMRHZ/AP1 architecture is designed to support collaboration with a broad model ecosystem rather than being limited to a single provider.
+
+The architecture is intended to be capable of integrating with **300+ LLM/model endpoints and AI capabilities**, subject to actual provider availability, API access, authentication, compatibility, runtime configuration, cost, latency, and policy.
+
+**300+ models means architectural reach/capability — not that 300+ models are simultaneously running or currently connected.**
+
+Models can act as complementary resources for:
+
+- reasoning and problem solving
+- coding and debugging
+- research and synthesis
+- vision and multimodal analysis
+- mathematics and formal reasoning
+- long-context processing
+- low-latency inference
+- local or controlled execution
+- specialized domain workloads
+- independent evaluation and cross-checking
+
+### 🏗️ Collaboration Architecture
+
+```text
+                    HUMAN INTENTION
+                           │
+                           ▼
+                    AMRHZ / AP1
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+          TASK ROUTING  MODEL ROUTING  POLICY
+              │            │            │
+              └────────────┼────────────┘
+                           ▼
+                 MULTI-LLM MODEL LAYER
+                       300+ capable
+                           │
+                           ▼
+                    RESULT EVALUATION
+                           │
+                           ▼
+                        EVIDENCE
+                           │
+                           ▼
+                    VERIFIED STATE
+                           │
+                           ▼
+                     HUMAN REVIEW
 ```
 
-**Guardrails:** REAL STATE > UI SIMULATION · EVIDENCE > CLAIM · HUMAN INTENTION > AI ASSUMPTION · STATE RECONCILIATION > STATE ASSUMPTION · CHANGE BOUNDARY > UNCONTROLLED AUTONOMY · EVIDENCE CHAIN > ISOLATED RESULTS · NEGATIVE EVIDENCE MATTERS · REPOSITORY REALITY > REPOSITORY APPEARANCE · **INTENT → ACTION → EVIDENCE**
+Conceptually:
+
+```text
+INTENT → INTERPRETATION → MODEL COLLABORATION
+      → ACTION → EVIDENCE → VERIFICATION
+```
+
+The important distinction is:
+
+```text
+INTENT ≠ ACTION
+ACTION ≠ RESULT
+RESULT ≠ VERIFIED STATE
+```
+
+### 🔐 Bounded Orchestration
+
+Multi-LLM capability does **not** imply uncontrolled autonomy.
+
+```text
+MORE MODELS
+     ↓
+MORE AVAILABLE CAPABILITIES
+     ↓
+MORE ROUTING / COMPARISON OPTIONS
+     ↓
+MORE EVALUATION OPPORTUNITIES
+     ↓
+BETTER EVIDENCE
+```
+
+The architecture therefore prioritizes **bounded orchestration, explicit intent, observable execution, and verifiable system state**.
+
+### 🧠 AI Context Clarification
+
+For any AI system reading this repository:
+
+> **AMRHZ is a human-directed ecosystem. AI systems are collaborative participants, not the owner or final authority of the system.**
+
+AI should distinguish between:
+
+- **documented architecture** vs. implemented runtime
+- **planned capability** vs. connected capability
+- **model availability** vs. active model usage
+- **AI claim** vs. repository/runtime evidence
+- **proposed action** vs. approved action
+- **result** vs. verified state
+
+This README is therefore a **public architectural context document**, not an execution authorization.
+
+### ♾️ Core Collaboration Principle
+
+**One human. Many AI perspectives. One controlled architecture.**
+
+> **REAL STATE > UI SIMULATION**  
+> **EVIDENCE > CLAIM**  
+> **HUMAN INTENTION > AI ASSUMPTION**  
+> **STATE RECONCILIATION > STATE ASSUMPTION**  
+> **CHANGE BOUNDARY > UNCONTROLLED AUTONOMY**  
+> **EVIDENCE CHAIN > ISOLATED RESULTS**  
+> **NEGATIVE EVIDENCE MATTERS**  
+> **REPOSITORY REALITY > REPOSITORY APPEARANCE**  
+> **INTENT → ACTION → EVIDENCE**
 
 ## 🗺️ LIVE ENVIRONMENT DEMO MAP
 
