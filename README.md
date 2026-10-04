@@ -90,33 +90,17 @@ Models can act as complementary resources for:
 
 ### 🏗️ Collaboration Architecture
 
-```text
-                    HUMAN INTENTION
-                           │
-                           ▼
-                    AMRHZ / AP1
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-          TASK ROUTING  MODEL ROUTING  POLICY
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                 MULTI-LLM MODEL LAYER
-                       300+ capable
-                           │
-                           ▼
-                    RESULT EVALUATION
-                           │
-                           ▼
-                        EVIDENCE
-                           │
-                           ▼
-                    VERIFIED STATE
-                           │
-                           ▼
-                     HUMAN REVIEW
+```mermaid
+flowchart LR
+    H["Human intent and approval"] --> GPT["ChatGPT / GPT<br/>Reasoning, planning, verification"]
+    GPT <-->|"shared context and review"| COP["GitHub Copilot<br/>Coding assistance"]
+    GPT <-->|"system context and feedback"| AP1["AMRHZ AI / AP1<br/>Architecture and system work"]
+    COP -->|"implementation proposals"| AP1
+    AP1 -->|"evidence and results"| H
+    H -->|"review and direction"| GPT
 ```
+
+These arrows represent documented collaboration roles. They do not assert a live connection, automatic handoff, or active runtime integration between the systems.
 
 Conceptually:
 
@@ -195,6 +179,32 @@ Use the links to inspect each destination. A link in this README does not prove 
 | 🏗️ Architecture Core | **UNKNOWN** — runtime/demo evidence not established here. | [Inspect repository](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) · Architecture and integration |
 
 **State key:** **LIVE / VERIFIED** requires current runtime evidence; **PARTIAL** means only the named scope has evidence; **DEVELOPMENT** describes work in progress; **PROPOSED** is not implemented; **UNKNOWN** means evidence is insufficient. No environment is labeled LIVE / VERIFIED from a repository link alone.
+
+### 🎛️ Environment Demo — UI / Animation Storyboard
+
+> **Illustrative UI storyboard only.** The sequence below describes how an evidence-backed demo should behave; it is not an embedded running app or a claim that these environments are currently reachable.
+
+| Demo console | Current evidence view |
+|---|---|
+| **Environment** | Website · AP1 Workspace · AP1-WEB-Console · AMRHZ-AI-13 · Architecture Core |
+| **Observed state** | **UNKNOWN** unless a current request/response is recorded |
+| **Last check** | Not recorded in this README |
+| **Evidence** | Link opens the destination; runtime behavior still requires a direct check |
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Visitor
+    participant UI as Demo UI
+    participant Env as Selected environment
+    Visitor->>UI: Select environment and inspect
+    UI->>Env: Make a current request
+    Env-->>UI: Response or connection error
+    UI->>UI: Record outcome, time, and evidence
+    UI-->>Visitor: Show VERIFIED, PARTIAL, BLOCKED, or UNKNOWN
+```
+
+**Storyboard motion:** Select → Request → Observe → Record → Verify. A failed or missing response remains visible as evidence; the UI must never animate an environment into a LIVE state without a successful current check.
 
 ## 🚀 START HERE
 
