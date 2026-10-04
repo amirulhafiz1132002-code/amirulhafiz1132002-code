@@ -34,6 +34,56 @@ HUMAN INTENTION ↕ AI INTERPRETATION ↕ SHARED STATE
                  HUMAN VERIFICATION
 ```
 
+## 🤝 AI COLLABORATION — INTENT → ACTION → EVIDENCE
+
+This is a collaboration model, not a claim that these agents are currently connected or active. GitHub README Mermaid renders a diagram; it does not run live animation. The flow below uses directional stages to make the handoffs easy to follow.
+
+```mermaid
+flowchart LR
+    HUMAN["♾️ AMRHZ<br/>Intent & approval"]
+    GPT["🧠 GPT<br/>Reasoning & architecture"]
+    COPILOT["⚙️ Copilot<br/>Code assistance"]
+    ECOSYSTEM["🔎 AMRHZ AI ecosystem<br/>Research & system context"]
+    AP1["⚡ AP1<br/>Inspect → propose → approved action"]
+    EVIDENCE["🧾 Evidence<br/>Repository · tests · runtime"]
+    STATE["🧭 Reconciled state<br/>Verified · partial · unknown"]
+
+    HUMAN --> GPT
+    HUMAN --> COPILOT
+    HUMAN --> ECOSYSTEM
+    GPT --> AP1
+    COPILOT --> AP1
+    ECOSYSTEM --> AP1
+    AP1 --> EVIDENCE
+    EVIDENCE --> STATE
+    STATE -. "human review" .-> HUMAN
+
+    classDef human fill:#172554,stroke:#60a5fa,color:#eff6ff,stroke-width:2px
+    classDef ai fill:#1e1b4b,stroke:#a78bfa,color:#f5f3ff,stroke-width:2px
+    classDef system fill:#042f2e,stroke:#2dd4bf,color:#f0fdfa,stroke-width:2px
+    classDef evidence fill:#292524,stroke:#fbbf24,color:#fffbeb,stroke-width:2px
+    class HUMAN human
+    class GPT,COPILOT,ECOSYSTEM ai
+    class AP1,STATE system
+    class EVIDENCE evidence
+```
+
+**Guardrails:** REAL STATE > UI SIMULATION · EVIDENCE > CLAIM · HUMAN INTENTION > AI ASSUMPTION · STATE RECONCILIATION > STATE ASSUMPTION · CHANGE BOUNDARY > UNCONTROLLED AUTONOMY · EVIDENCE CHAIN > ISOLATED RESULTS · NEGATIVE EVIDENCE MATTERS · REPOSITORY REALITY > REPOSITORY APPEARANCE · **INTENT → ACTION → EVIDENCE**
+
+## 🗺️ LIVE ENVIRONMENT DEMO MAP
+
+Use the links to inspect each destination. A link in this README does not prove that a service is reachable or that a feature works. Runtime status stays **UNKNOWN** until a current request/response or equivalent runtime evidence is recorded.
+
+| Environment | Status | Demo / inspection |
+|---|---|---|
+| 🌐 AMRHZ Website | **UNKNOWN** — runtime not verified in this update | [Open website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) · Public system hub |
+| ⚡ AP1 Workspace | **UNKNOWN** — runtime not verified in this update | [Open workspace](https://preview--ap1-ecosystem.lovable.app/) · AP1 workspace preview |
+| 🖥️ AP1-WEB-Console | **PARTIAL** — README records P0 tests 29/29 PASS; broader tests and CI pending. Runtime is **UNKNOWN**. | [Inspect repository](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) · Source and verification record |
+| 🧠 AMRHZ-AI-13 | **DEVELOPMENT** — described as an early prototype; runtime is **UNKNOWN**. | [Inspect repository](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) · Prototype source |
+| 🏗️ Architecture Core | **UNKNOWN** — runtime/demo evidence not established here. | [Inspect repository](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) · Architecture and integration |
+
+**State key:** **LIVE / VERIFIED** requires current runtime evidence; **PARTIAL** means only the named scope has evidence; **DEVELOPMENT** describes work in progress; **PROPOSED** is not implemented; **UNKNOWN** means evidence is insufficient. No environment is labeled LIVE / VERIFIED from a repository link alone.
+
 ## 🚀 START HERE
 
 | Destination | Purpose |
