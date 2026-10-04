@@ -169,7 +169,7 @@ REAL EVIDENCE → VERIFICATION → UPDATED STATE
 | ⚡ AP1-WEB-Console | AP1 development console | 🔎 VERIFY |
 | 🧠 AMRHZ-AI-13 | Early AI prototype | 🟢 Existing |
 | 🏗️ Architecture Core | Architecture + integration | 🟢 Existing |
-| 🌐 AMRHZ Website | Public ecosystem hub | 🌐 Deployed |
+| 🌐 AMRHZ Website | Public ecosystem hub | **UNKNOWN** — runtime not verified |
 | 🧠 Human–AI Memory Bridge | Shared-state architecture | 🟡 Proposed |
 | 🤖 Multi-agent orchestration | Agent expansion | 🟡 Development |
 | 🧬 Enhanced memory/retrieval | Context + retrieval | 🔵 Planned |
