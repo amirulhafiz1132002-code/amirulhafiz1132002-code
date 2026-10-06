@@ -14,6 +14,45 @@
 <a href="https://github.com/amirulhafiz1132002-code">💻 GITHUB</a>
 </p>
 
+## ⚡ AMRHZ SYSTEM PULSE
+
+<table>
+<tr>
+<td align="center"><strong>👤 GITHUB</strong><br/>
+<a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/github/followers/amirulhafiz1132002-code?label=followers&style=flat-square" alt="GitHub followers"/></a><br/>
+<a href="https://github.com/amirulhafiz1132002-code?tab=repositories"><img src="https://img.shields.io/badge/public%20repos-live%20GitHub%20data-111827?style=flat-square" alt="Public repositories"/></a>
+</td>
+<td align="center"><strong>🎯 CURRENT MISSION</strong><br/>
+<strong>Main Interface UX Upgrade</strong><br/>
+<sub>Profile → system workspace interface</sub>
+</td>
+<td align="center"><strong>🧭 STATE</strong><br/>
+<strong>DEVELOPMENT</strong><br/>
+<sub>Implementation authorized</sub>
+</td>
+<td align="center"><strong>🔗 EVIDENCE</strong><br/>
+<strong>README / GitHub</strong><br/>
+<sub>Source: repository state</sub>
+</td>
+</tr>
+</table>
+
+| Development tracker | State |
+|---|---|
+| UX direction | ✅ **LOCKED / APPROVED** |
+| Scope | 🎯 **Main profile interface only** |
+| AMRHZ-AI-13 UI | 🔒 **FROZEN / UNTOUCHED** |
+| Current task | 🔵 **Implement System Pulse + Current Mission UI** |
+| Next action | 🔎 **Verify rendered profile and navigation** |
+| Data rule | **Evidence-backed; no fabricated live telemetry** |
+| Interactive neural experience | 🟡 **Website layer — separate from README** |
+| Last README sync | **2026-10-06** |
+
+> **Live-data boundary:** GitHub-native badges may reflect GitHub data; project state and development tasks are maintained from verified repository evidence. The README does not claim arbitrary live telemetry or a running neural simulation.
+
+---
+
+
 ---
 
 ## 👋 WHO IS AMRHZ?
