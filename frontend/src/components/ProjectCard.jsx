@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { ExternalLink, Star, GitFork, Activity } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
@@ -108,4 +109,19 @@ export const ProjectCard = ({ project }) => {
       </CardFooter>
     </Card>
   );
+};
+
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    status: PropTypes.oneOf(['active', 'complete', 'research']).isRequired,
+    progress: PropTypes.number,
+    achievement: PropTypes.string,
+    stars: PropTypes.number,
+    forks: PropTypes.number,
+    language: PropTypes.string,
+    tags: PropTypes.arrayOf(PropTypes.string),
+    url: PropTypes.string.isRequired,
+  }).isRequired,
 };

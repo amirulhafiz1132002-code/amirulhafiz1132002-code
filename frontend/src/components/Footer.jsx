@@ -17,7 +17,7 @@ export const Footer = () => {
               Building AI-powered systems, not just apps. Creating intelligent, scalable automation frameworks.
             </p>
             <p className="text-xs text-slate-500 italic">
-              "Build in public, fail in public, learn in public"
+              &quot;Build in public, fail in public, learn in public&quot;
             </p>
           </div>
 
