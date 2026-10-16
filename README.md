@@ -358,3 +358,7 @@ REAL EVIDENCE → VERIFICATION → UPDATED STATE
 **Build → Test → Verify → Improve → Repeat.**
 
 <p align="center"><strong>♾️13 AMRHZ</strong><br/><sub>Human × AI × Systems</sub><br/><br/><a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">MAIN WEBSITE</a> · <a href="https://preview--ap1-ecosystem.lovable.app/">AP1 WORKSPACE</a> · <a href="https://github.com/amirulhafiz1132002-code/AP1-WEB-Console">AP1 PROJECT</a></p>
+
+## 📚 DOCUMENTATION
+
+- [AMRHZ Tool Registry](docs/AMRHZ-TOOL-REGISTRY.md) — evidence-based inventory of tools and technologies, with explicit distinctions between used, configured, tested, planned, blocked, and unknown states.
