@@ -24,4 +24,14 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
   },
+  overrides: [
+    {
+      // Radix/shadcn wrappers intentionally forward primitive props via ...props.
+      // Keep prop contracts enforced for application components outside this directory.
+      files: ['src/components/ui/**/*.{js,jsx,ts,tsx}'],
+      rules: {
+        'react/prop-types': 'off',
+      },
+    },
+  ],
 };
