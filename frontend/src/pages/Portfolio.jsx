@@ -11,7 +11,7 @@ import { Progress } from '../components/ui/progress';
 import { Button } from '../components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
 import { Skeleton } from '../components/ui/skeleton';
-import { Target, Rocket, Lightbulb, Code2, Database, Cloud, Cpu, Award, CheckCircle2, Circle, AlertCircle } from 'lucide-react';
+import { Target, Rocket, Lightbulb, Code2, Database, Cpu, Award, CheckCircle2, Circle, AlertCircle } from 'lucide-react';
 import { toast } from 'sonner';
 
 export const Portfolio = () => {
@@ -168,7 +168,7 @@ export const Portfolio = () => {
             <div className="inline-block px-8 py-4 bg-gradient-to-r from-cyan-50 to-teal-50 dark:from-slate-800 dark:to-slate-800 rounded-2xl border border-cyan-200 dark:border-cyan-900">
               <Lightbulb className="w-8 h-8 text-cyan-500 mx-auto mb-2" />
               <p className="text-xl font-semibold text-slate-900 dark:text-white italic">
-                "Build in public, fail in public, learn in public"
+                &quot;Build in public, fail in public, learn in public&quot;
               </p>
             </div>
           </div>
@@ -341,7 +341,7 @@ export const Portfolio = () => {
           </div>
 
           <div className="space-y-8">
-            {roadmapPhases.map((phase, index) => (
+            {roadmapPhases.map((phase) => (
               <Card
                 key={phase.phase}
                 className={`border-2 ${
@@ -507,10 +507,10 @@ export const Portfolio = () => {
       <section id="contact" className="py-24 bg-white dark:bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-            Let's Connect!
+            Let&apos;s Connect!
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-400 mb-8">
-            I'm always excited to discuss AI/ML integration strategies, system architecture, and collaboration opportunities.
+            I&apos;m always excited to discuss AI/ML integration strategies, system architecture, and collaboration opportunities.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-12">
@@ -559,7 +559,7 @@ export const Portfolio = () => {
 
           <div className="p-8 bg-gradient-to-r from-cyan-50 via-teal-50 to-cyan-50 dark:from-slate-800 dark:via-slate-800 dark:to-slate-800 rounded-2xl border border-cyan-200 dark:border-cyan-900">
             <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-              Let's build something amazing together!
+              Let&apos;s build something amazing together!
             </h3>
             <p className="text-slate-600 dark:text-slate-400 mb-6">
               Explore my repositories, follow the development journey, and feel free to contribute or collaborate.
