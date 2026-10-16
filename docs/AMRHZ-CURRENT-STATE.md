@@ -119,3 +119,38 @@ UPDATED REAL STATE
 When documentation, UI, or memory conflicts with direct repository/runtime evidence, the direct evidence wins.
 
 **Evidence first. Human intent first. Real state first.**
+
+## ESLint CI checkpoint — 2026-10-16
+
+### VERIFIED — commit and CI run
+
+- **Repository:** `amirulhafiz1132002-code/amirulhafiz1132002-code`
+- **Branch:** `Amrhz`
+- **Commit:** [`4e60b906e126c89d8a360501f4002b9fca84d0f0`](https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/commit/4e60b906e126c89d8a360501f4002b9fca84d0f0)
+- **Commit message:** `Fix ESLint baseline and enforce CI failures`
+- **GitHub Actions run:** ESLint #50 — **Success**
+- **Observed run duration:** 28 seconds
+- **Job result:** 1/1 passed; `Run eslint scanning` successful in 24 seconds.
+- **Scope recorded by the commit:** remove `continue-on-error: true` from ESLint, scope the `react/prop-types` exception to UI wrappers, add PropTypes contracts for application components, and fix reported lint findings.
+
+### VERIFIED — SARIF evidence boundary
+
+The supplied upload log shows `eslint-results.sarif` was found and validated, fingerprints were added, and upload began. The available log excerpt ends at `Waiting for processing to finish`; therefore, final SARIF processing completion is **NOT independently verified** by that excerpt. The overall ESLint workflow run itself is confirmed **Success** by the GitHub Actions run summary.
+
+### PLANNED — separate maintenance task
+
+- Migrate `github/codeql-action/upload-sarif@v3` to `@v4` in a separate, scoped change.
+- Re-check action compatibility and runner warnings, including the reported Node.js 20 deprecation / Node.js 24 execution notice.
+- Do not bundle this maintenance with the completed ESLint baseline checkpoint.
+- Verify the migration with a new GitHub Actions run before marking it **VERIFIED**.
+
+### Checkpoint boundary
+
+- **ESLint CI run:** VERIFIED — SUCCESS for the commit above.
+- **SARIF file validation and upload initiation:** VERIFIED from the supplied log.
+- **Final SARIF processing completion:** UNKNOWN from the available excerpt.
+- **CodeQL v3 → v4 migration:** PLANNED, not implemented.
+- No claim is made that the entire AMRHZ ecosystem is complete or LIVE.
+
+Workflow remains: **STABILIZE → VERIFY → CONNECT → EXTEND**. Preserve the evidence chain; one task, one test, pass, then proceed.
+
