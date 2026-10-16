@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { ArrowRight, Github, Linkedin, Mail, Twitter } from 'lucide-react';
 import { Button } from './ui/button';
 import { Skeleton } from './ui/skeleton';
@@ -52,7 +53,7 @@ export const Hero = ({ userData, stats, loading }) => {
 
         {/* Title */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-slate-900 dark:text-white">
-          Hi there! I'm{' '}
+          Hi there! I&apos;m{' '}
           <span className="bg-gradient-to-r from-cyan-500 via-teal-500 to-cyan-600 bg-clip-text text-transparent">
             {loading ? (
               <Skeleton className="inline-block w-96 h-16" />
@@ -167,4 +168,19 @@ export const Hero = ({ userData, stats, loading }) => {
       </div>
     </section>
   );
+};
+
+Hero.propTypes = {
+  userData: PropTypes.shape({
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    bio: PropTypes.string,
+    public_repos: PropTypes.number,
+  }),
+  stats: PropTypes.shape({
+    totalProjects: PropTypes.number,
+    activeProjects: PropTypes.number,
+    languages: PropTypes.arrayOf(PropTypes.string),
+  }),
+  loading: PropTypes.bool.isRequired,
 };
