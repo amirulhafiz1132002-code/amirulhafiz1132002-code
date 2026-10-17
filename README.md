@@ -1,364 +1,196 @@
-# ♾️ AMRHZ — AI Systems • AP1 • Human + AI
-
-<p align="center"><strong>BUILD SYSTEMS, NOT JUST APPS.</strong><br/>Human intention × AI collaboration × verifiable systems</p>
+# ♾️ AMRHZ — Cyberdeck Interface
 
 <p align="center">
-<a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><strong>🌐 MAIN WEBSITE</strong></a> · 
-<a href="https://preview--ap1-ecosystem.lovable.app/"><strong>⚡ AP1 WORKSPACE</strong></a> · 
-<a href="https://github.com/amirulhafiz1132002-code/AP1-WEB-Console"><strong>🖥️ AP1-WEB-CONSOLE</strong></a>
+  <img src="./assets/amrhz-cyberdeck.svg" alt="AMRHZ Cyberdeck — Human intention, AI collaboration, evidence and verification" width="100%" />
 </p>
 
 <p align="center">
-<a href="https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13">🧠 AMRHZ-AI-13</a> · 
-<a href="https://github.com/amirulhafiz1132002-code/amrhz-architecture-core">🏗️ ARCHITECTURE CORE</a> · 
-<a href="https://github.com/amirulhafiz1132002-code">💻 GITHUB</a>
+  <strong>HUMAN-DIRECTED SYSTEMS · MODULAR AI · VERIFIABLE STATE</strong><br/>
+  Build systems, not just apps.
 </p>
 
-## ⚡ AMRHZ SYSTEM PULSE
+<p align="center">
+  <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/"><strong>↗ MAIN WEBSITE</strong></a> ·
+  <a href="https://preview--ap1-ecosystem.lovable.app/"><strong>↗ AP1 WORKSPACE</strong></a> ·
+  <a href="https://github.com/amirulhafiz1132002-code/AP1-WEB-Console"><strong>↗ ENGINEERING CONSOLE</strong></a>
+</p>
+<p align="center">
+  <a href="https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13">AMRHZ-AI-13</a> ·
+  <a href="https://github.com/amirulhafiz1132002-code/amrhz-architecture-core">Architecture Core</a> ·
+  <a href="https://github.com/amirulhafiz1132002-code">All repositories</a>
+</p>
 
-<table>
-<tr>
-<td align="center"><strong>👤 GITHUB</strong><br/>
-<a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/github/followers/amirulhafiz1132002-code?label=followers&style=flat-square" alt="GitHub followers"/></a><br/>
-<a href="https://github.com/amirulhafiz1132002-code?tab=repositories"><img src="https://img.shields.io/badge/public%20repos-live%20GitHub%20data-111827?style=flat-square" alt="Public repositories"/></a>
-</td>
-<td align="center"><strong>🎯 CURRENT MISSION</strong><br/>
-<strong>Main Interface UX Upgrade</strong><br/>
-<sub>Profile → system workspace interface</sub>
-</td>
-<td align="center"><strong>🧭 STATE</strong><br/>
-<strong>DEVELOPMENT</strong><br/>
-<sub>Implementation authorized</sub>
-</td>
-<td align="center"><strong>🔗 EVIDENCE</strong><br/>
-<strong>README / GitHub</strong><br/>
-<sub>Source: repository state</sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/PRINCIPLE-EVIDENCE%20%3E%20CLAIM-0b766e?style=flat-square" alt="Evidence over claims" />
+  <img src="https://img.shields.io/badge/CONTROL-HUMAN--DIRECTED-16324f?style=flat-square" alt="Human directed" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-MODULAR-234e52?style=flat-square" alt="Modular architecture" />
+  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/GitHub-Source%20of%20truth-111827?style=flat-square&logo=github" alt="GitHub source of truth" /></a>
+</p>
 
-| Development tracker | State |
+---
+
+## ◈ COMMAND DECK
+
+| Module | Purpose | Access |
+|---|---|---|
+| **01 / PUBLIC HUB** | Public identity and ecosystem entry point | [Open website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
+| **02 / AP1 WORKSPACE** | AP1 workspace preview | [Open workspace](https://preview--ap1-ecosystem.lovable.app/) |
+| **03 / ENGINEERING** | AP1 source, tests and engineering checkpoints | [Open repository](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
+| **04 / AI-13** | Early AI prototype and experiments | [Open repository](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
+| **05 / ARCHITECTURE** | Architecture and integration work | [Open repository](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
+| **06 / TOOL REGISTRY** | Evidence-based inventory of tools and technologies | [Read registry](docs/AMRHZ-TOOL-REGISTRY.md) |
+
+> **Runtime boundary:** These are navigation links, not health checks. A destination is not considered LIVE or VERIFIED solely because a link exists. Runtime status remains UNKNOWN until current request/response evidence is recorded.
+
+## ◈ SYSTEM PULSE
+
+| Field | Current record |
 |---|---|
-| UX direction | ✅ **LOCKED / APPROVED** |
-| Scope | 🎯 **Main profile interface only** |
-| AMRHZ-AI-13 UI | 🔒 **FROZEN / UNTOUCHED** |
-| Current task | 🔵 **Implement System Pulse + Current Mission UI** |
-| Next action | 🔎 **Verify rendered profile and navigation** |
-| Data rule | **Evidence-backed; no fabricated live telemetry** |
-| Interactive neural experience | 🟡 **Website layer — separate from README** |
-| Last README sync | **2026-10-06** |
+| **Identity** | AMRHZ — independent system developer |
+| **Focus** | AI systems · APIs · architecture · Human–AI collaboration |
+| **Operating model** | Stabilize → Verify → Connect → Extend |
+| **Current interface direction** | Cyberdeck-inspired profile and navigation |
+| **State of this visual** | **CONCEPTUAL UI** — the hero graphic is static, not live telemetry |
+| **Source of truth** | Repository contents, commit history and test evidence |
 
-> **Live-data boundary:** GitHub-native badges may reflect GitHub data; project state and development tasks are maintained from verified repository evidence. The README does not claim arbitrary live telemetry or a running neural simulation.
+GitHub-native badges may show data supplied by GitHub. This profile does not invent runtime metrics, active-agent counts, uptime, or provider connections.
 
----
+## ◈ EXPAND THE DECK
 
+<details>
+<summary><strong>01 — Identity & operating principles</strong></summary>
 
----
-
-## 👋 WHO IS AMRHZ?
-
-**Muhammad Amirul Hafiz (AMRHZ)** is an independent system developer building an ecosystem around **AI, APIs, software architecture, Human–AI collaboration, and verifiable runtime state**.
+AMRHZ is building an ecosystem around AI, APIs, software architecture, Human–AI collaboration, and verifiable runtime state.
 
 > The goal is not to make systems merely look intelligent. The goal is to make their underlying state inspectable, testable, understandable, and real.
 
-### 🧭 ECOSYSTEM
+**Core protocol**
 
-```text
-HUMAN INTENTION ↕ AI INTERPRETATION ↕ SHARED STATE
-                         ↓
-                 AP1 / SYSTEM ACTION
-                         ↓
-                   REAL EVIDENCE
-                         ↓
-                 HUMAN VERIFICATION
-```
+- REAL STATE > UI SIMULATION
+- EVIDENCE > CLAIM
+- HUMAN INTENTION > AI ASSUMPTION
+- STATE RECONCILIATION > STATE ASSUMPTION
+- CHANGE BOUNDARY > UNCONTROLLED AUTONOMY
+- EVIDENCE CHAIN > ISOLATED RESULTS
+- NEGATIVE EVIDENCE MATTERS
+- REPOSITORY REALITY > REPOSITORY APPEARANCE
 
-## 🤝 HUMAN–AI COLLABORATION & ARCHITECTURE CONTEXT
+**Task loop:** INTENT → ACTION → EVIDENCE → VERIFIED STATE
 
-This section documents how human intent, AI collaboration, system authority, model orchestration, and verified system state relate across the AMRHZ ecosystem. It is intended as a **shared clarification context for humans and AI systems** reading this repository.
+</details>
 
-### 🧑 Human Role
+<details>
+<summary><strong>02 — Human–AI collaboration model</strong></summary>
 
-**Muhammad Amirul Hafiz (AMRHZ)** is the human owner, architect, and primary decision authority for the AMRHZ ecosystem.
+The human owner defines intent, architecture, permissions, approval requirements, and the final interpretation of evidence. AI systems are contributors—not owners or final authorities.
 
-Human responsibility includes:
-
-- **Intent** — defining what the system is trying to accomplish
-- **Architecture** — defining how systems and boundaries should be structured
-- **Authority** — defining what actions are permitted
-- **Approval** — approving actions where required
-- **Verification** — determining whether an outcome is actually evidenced
-- **Direction** — deciding how the ecosystem evolves
-
-AI output is therefore **not automatically treated as truth, authority, or verified system state**.
-
-### 🤖 Current AI Collaboration
-
-Current AI partners contribute different functions within the development workflow:
-
-| Partner | Current collaboration role |
+| Partner | Intended collaboration role |
 |---|---|
-| **ChatGPT / GPT** | Primary reasoning, architecture discussion, planning, documentation, verification, and development collaboration |
-| **GitHub Copilot** | Coding assistance, implementation, refactoring, and repository development support |
-| **Meta AI** | Additional perspective, experimentation, and collaborative ideation |
-| **Gemini** | Comparative reasoning, experimentation, and additional analysis |
-| **Perplexity** | Research, external information discovery, source-oriented investigation, and audit perspective |
+| ChatGPT / GPT | Reasoning, architecture, planning, documentation and verification support |
+| GitHub Copilot | Coding assistance and repository development support |
+| Gemini | Comparative reasoning, experimentation and research synthesis |
+| Perplexity | External discovery and source-oriented investigation |
+| Meta AI | Additional perspective and ideation |
 
-These are **functional collaboration roles**. They are not claims that every partner is permanently connected, continuously active, autonomous, or authorized to execute AMRHZ systems.
+These are documented workflow roles. They do **not** mean the tools are permanently connected, continuously active, or authorized to execute the system.
 
-### 🌐 Multi-LLM Architecture
+**Multi-model boundary:** The architecture is intended to support a broad model ecosystem, potentially 300+ model endpoints/capabilities depending on availability, API access, authentication, compatibility, runtime configuration, cost, latency and policy. This is architectural reach—not a claim that 300+ models are connected or running.
 
-The AMRHZ/AP1 architecture is designed to support collaboration with a broad model ecosystem rather than being limited to a single provider.
+</details>
 
-The architecture is intended to be capable of integrating with **300+ LLM/model endpoints and AI capabilities**, subject to actual provider availability, API access, authentication, compatibility, runtime configuration, cost, latency, and policy.
-
-**300+ models means architectural reach/capability — not that 300+ models are simultaneously running or currently connected.**
-
-Models can act as complementary resources for:
-
-- reasoning and problem solving
-- coding and debugging
-- research and synthesis
-- vision and multimodal analysis
-- mathematics and formal reasoning
-- long-context processing
-- low-latency inference
-- local or controlled execution
-- specialized domain workloads
-- independent evaluation and cross-checking
-
-### 🏗️ Collaboration Architecture
-
-```mermaid
-flowchart LR
-    H["Human intent and approval"] --> GPT["ChatGPT / GPT<br/>Reasoning, planning, verification"]
-    GPT <-->|"shared context and review"| COP["GitHub Copilot<br/>Coding assistance"]
-    GPT <-->|"system context and feedback"| AP1["AMRHZ AI / AP1<br/>Architecture and system work"]
-    COP -->|"implementation proposals"| AP1
-    AP1 -->|"evidence and results"| H
-    H -->|"review and direction"| GPT
-```
-
-These arrows represent documented collaboration roles. They do not assert a live connection, automatic handoff, or active runtime integration between the systems.
-
-Conceptually:
+<details>
+<summary><strong>03 — Architecture & bounded orchestration</strong></summary>
 
 ```text
-INTENT → INTERPRETATION → MODEL COLLABORATION
-      → ACTION → EVIDENCE → VERIFICATION
+HUMAN INTENT
+    ↓
+INTERPRETATION / PLANNING
+    ↓
+SCOPED MODEL OR MODULE
+    ↓
+PROPOSE → APPROVE → ACT
+    ↓
+OBSERVED RESULT
+    ↓
+EVIDENCE → VERIFICATION → UPDATED STATE
 ```
 
-The important distinction is:
+Key distinctions:
 
-```text
-INTENT ≠ ACTION
-ACTION ≠ RESULT
-RESULT ≠ VERIFIED STATE
-```
+- Intent ≠ action
+- Action ≠ successful result
+- Result ≠ verified state
+- Available model ≠ connected model
+- Planned capability ≠ implemented capability
 
-### 🔐 Bounded Orchestration
+The intended architecture prioritizes explicit permissions, observable execution, failure reporting, and human approval at defined boundaries.
 
-Multi-LLM capability does **not** imply uncontrolled autonomy.
+</details>
 
-```text
-MORE MODELS
-     ↓
-MORE AVAILABLE CAPABILITIES
-     ↓
-MORE ROUTING / COMPARISON OPTIONS
-     ↓
-MORE EVALUATION OPPORTUNITIES
-     ↓
-BETTER EVIDENCE
-```
+<details>
+<summary><strong>04 — Project state & inspection links</strong></summary>
 
-The architecture therefore prioritizes **bounded orchestration, explicit intent, observable execution, and verifiable system state**.
-
-### 🧠 AI Context Clarification
-
-For any AI system reading this repository:
-
-> **AMRHZ is a human-directed ecosystem. AI systems are collaborative participants, not the owner or final authority of the system.**
-
-AI should distinguish between:
-
-- **documented architecture** vs. implemented runtime
-- **planned capability** vs. connected capability
-- **model availability** vs. active model usage
-- **AI claim** vs. repository/runtime evidence
-- **proposed action** vs. approved action
-- **result** vs. verified state
-
-This README is therefore a **public architectural context document**, not an execution authorization.
-
-### ♾️ Core Collaboration Principle
-
-**One human. Many AI perspectives. One controlled architecture.**
-
-> **REAL STATE > UI SIMULATION**  
-> **EVIDENCE > CLAIM**  
-> **HUMAN INTENTION > AI ASSUMPTION**  
-> **STATE RECONCILIATION > STATE ASSUMPTION**  
-> **CHANGE BOUNDARY > UNCONTROLLED AUTONOMY**  
-> **EVIDENCE CHAIN > ISOLATED RESULTS**  
-> **NEGATIVE EVIDENCE MATTERS**  
-> **REPOSITORY REALITY > REPOSITORY APPEARANCE**  
-> **INTENT → ACTION → EVIDENCE**
-
-## 🗺️ LIVE ENVIRONMENT DEMO MAP
-
-Use the links to inspect each destination. A link in this README does not prove that a service is reachable or that a feature works. Runtime status stays **UNKNOWN** until a current request/response or equivalent runtime evidence is recorded.
-
-| Environment | Status | Demo / inspection |
+| Project / environment | Recorded state | What to inspect |
 |---|---|---|
-| 🌐 AMRHZ Website | **UNKNOWN** — runtime not verified in this update | [Open website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) · Public system hub |
-| ⚡ AP1 Workspace | **UNKNOWN** — runtime not verified in this update | [Open workspace](https://preview--ap1-ecosystem.lovable.app/) · AP1 workspace preview |
-| 🖥️ AP1-WEB-Console | **PARTIAL** — README records P0 tests 29/29 PASS; broader tests and CI pending. Runtime is **UNKNOWN**. | [Inspect repository](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) · Source and verification record |
-| 🧠 AMRHZ-AI-13 | **DEVELOPMENT** — described as an early prototype; runtime is **UNKNOWN**. | [Inspect repository](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) · Prototype source |
-| 🏗️ Architecture Core | **UNKNOWN** — runtime/demo evidence not established here. | [Inspect repository](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) · Architecture and integration |
+| AMRHZ public website | **UNKNOWN** — current runtime not checked here | [Website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
+| AP1 workspace preview | **UNKNOWN** — current runtime not checked here | [Workspace](https://preview--ap1-ecosystem.lovable.app/) |
+| AP1-WEB-Console | **DEVELOPMENT / VERIFY** — inspect current tests and CI before claiming broader readiness | [Source](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
+| AMRHZ-AI-13 | **DEVELOPMENT** — early prototype; runtime not established here | [Source](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
+| Architecture Core | **UNKNOWN** — current integration/runtime evidence not established here | [Source](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
+| Human–AI Memory Bridge | **PROPOSED** — architecture direction, not a verified shared-memory service | [Tool registry](docs/AMRHZ-TOOL-REGISTRY.md) |
 
-**State key:** **LIVE / VERIFIED** requires current runtime evidence; **PARTIAL** means only the named scope has evidence; **DEVELOPMENT** describes work in progress; **PROPOSED** is not implemented; **UNKNOWN** means evidence is insufficient. No environment is labeled LIVE / VERIFIED from a repository link alone.
+**State key:** CONCEPT · PROPOSED · PLANNED · DEVELOPMENT · PARTIAL · VERIFIED · LIVE · BLOCKED · UNKNOWN.
 
-### 🎛️ Environment Demo — UI / Animation Storyboard
+LIVE / VERIFIED requires current evidence. Missing evidence stays UNKNOWN; failures are recorded rather than hidden.
 
-> **Illustrative UI storyboard only.** The sequence below describes how an evidence-backed demo should behave; it is not an embedded running app or a claim that these environments are currently reachable.
+</details>
 
-| Demo console | Current evidence view |
-|---|---|
-| **Environment** | Website · AP1 Workspace · AP1-WEB-Console · AMRHZ-AI-13 · Architecture Core |
-| **Observed state** | **UNKNOWN** unless a current request/response is recorded |
-| **Last check** | Not recorded in this README |
-| **Evidence** | Link opens the destination; runtime behavior still requires a direct check |
+<details>
+<summary><strong>05 — Engineering lifecycle & checkpoint rules</strong></summary>
 
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Visitor
-    participant UI as Demo UI
-    participant Env as Selected environment
-    Visitor->>UI: Select environment and inspect
-    UI->>Env: Make a current request
-    Env-->>UI: Response or connection error
-    UI->>UI: Record outcome, time, and evidence
-    UI-->>Visitor: Show VERIFIED, PARTIAL, BLOCKED, or UNKNOWN
-```
+**Lifecycle:** STABILIZE → VERIFY → CONNECT → EXTEND
 
-**Storyboard motion:** Select → Request → Observe → Record → Verify. A failed or missing response remains visible as evidence; the UI must never animate an environment into a LIVE state without a successful current check.
+**Per-task loop:** INSPECT → MINIMAL SAFE CHANGE → TEST → PASS → CHECKPOINT
 
-## 🚀 START HERE
+**Maturity path:** CONCEPT → PROPOSED → PLANNED → DEVELOPMENT → PARTIAL → VERIFIED → LIVE
 
-| Destination | Purpose |
-|---|---|
-| 🌐 [MAIN WEBSITE](https://amrhz-websites.amirulhafiz1132002.workers.dev/) | AMRHZ public system hub |
-| ⚡ [AP1 WORKSPACE](https://preview--ap1-ecosystem.lovable.app/) | AP1 ecosystem workspace |
-| 🖥️ [AP1-WEB-CONSOLE](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) | Main engineering console |
-| 🧠 [AMRHZ-AI-13](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) | Early AI prototype |
-| 🏗️ [ARCHITECTURE CORE](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) | Architecture + integration |
-| 💻 [GITHUB PROFILE](https://github.com/amirulhafiz1132002-code) | Source and public development |
+Additional states: BLOCKED · DEPRECATED · UNKNOWN.
 
-## 🔐 AMRHZ CORE PROTOCOL
+The profile repository has an evidence-oriented tool registry and security policy. Read:
+- [AMRHZ Tool Registry](docs/AMRHZ-TOOL-REGISTRY.md)
+- [Security Policy](SECURITY.md)
 
-**REAL STATE > UI SIMULATION**  
-**EVIDENCE > CLAIM**  
-**HUMAN INTENTION > AI ASSUMPTION**  
-**FAILURE IS DATA**
+</details>
 
-### Development lifecycle
-`STABILIZE → VERIFY → CONNECT → EXTEND`
+<details>
+<summary><strong>06 — Technology & roadmap</strong></summary>
 
-### Per-task lifecycle
-`INSPECT → MINIMAL SAFE CHANGE → TEST → PASS → CHECKPOINT`
+**Technology areas:** HTML · CSS · JavaScript · TypeScript · React · Python · FastAPI · Flask · Node.js · AI APIs · GitHub · Cloudflare Workers · PostgreSQL (runtime-state direction).
 
-### Maturity
-`CONCEPT → PROPOSED → PLANNED → DEVELOPMENT → PARTIAL → VERIFIED → LIVE`
+**Roadmap direction**
+- **Foundation:** prototypes, architecture, website, AP1 ecosystem and evidence-first protocol.
+- **Current engineering priority:** verification, CI, runtime-state validation and observability.
+- **Future direction:** mission execution, bounded multi-agent orchestration, evaluation, learning and expanded integrations.
 
-Additional: `BLOCKED · DEPRECATED · UNKNOWN`
+These are areas and directions—not a claim that every component is deployed or connected.
 
-## 🧪 CURRENT ENGINEERING STATE
+</details>
 
-### AP1-WEB-Console — VERIFY
+<details>
+<summary><strong>07 — Public channels</strong></summary>
 
-| Verification | State |
-|---|---|
-| P0 tests | ✅ **29/29 PASS** |
-| Deprecation warnings | ⚠️ 3 observed |
-| Remediation checkpoint | `97905d5` |
-| Application logic changed by P0 remediation | ❌ No |
-| Checkpoint working tree | ✅ CLEAN |
-| Broader test suite | 🔎 Pending verification |
-| CI state | 🔎 Pending verification |
+- [YouTube — @AMRHZ13](https://www.youtube.com/@AMRHZ13)
+- [Instagram — @amrhz13](https://www.instagram.com/amrhz13)
+- [X — @AMRHZ9](https://x.com/AMRHZ9)
+- [Facebook — AMRHZ](https://www.facebook.com/share/1KiYVb1j4g/)
+- [GitHub — @amirulhafiz1132002-code](https://github.com/amirulhafiz1132002-code)
 
-**Next boundary:** verify broader tests and CI before CONNECT → EXTEND.
+</details>
 
-Full record: `docs/AMRHZ-CURRENT-STATE.md`
+---
 
-## 🧠 HUMAN–AI MEMORY BRIDGE
-
-**Status: PROPOSED / LOCKED FOR DEVELOPMENT**
-
-```text
-INTENTION → INTERPRETATION → SHARED STATE
-                 ↓
-PROPOSAL → HUMAN APPROVAL → ACTION
-                 ↓
-REAL EVIDENCE → VERIFICATION → UPDATED STATE
-```
-
-## ⚡ AP1 ARCHITECTURE
-
-- **GitHub** → source of truth for code, architecture, documentation, decisions, and history.
-- **PostgreSQL** → runtime-state boundary for approvals, jobs, telemetry, and execution records.
-- **AP1 flow** → Inspect → Propose → Approve / Cancel.
-- **Evolution** → Health → Diagnostics → Missions → Agent Execution → Evaluation → Learning.
-
-## 📡 SOCIAL / PUBLIC CHANNELS
-
-| Channel | Public profile |
-|---|---|
-| ▶️ YouTube | [@AMRHZ13](https://www.youtube.com/@AMRHZ13) |
-| 📸 Instagram | [@amrhz13](https://www.instagram.com/amrhz13) |
-| 𝕏 X | [@AMRHZ9](https://x.com/AMRHZ9) |
-| 📘 Facebook | [AMRHZ](https://www.facebook.com/share/1KiYVb1j4g/) |
-| 💻 GitHub | [@amirulhafiz1132002-code](https://github.com/amirulhafiz1132002-code) |
-
-**WhatsApp:** reserved for the public WhatsApp URL you choose to publish.
-
-## 🧩 PROJECT MAP
-
-| Project | Role | State |
-|---|---|---|
-| ⚡ AP1-WEB-Console | AP1 development console | 🔎 VERIFY |
-| 🧠 AMRHZ-AI-13 | Early AI prototype | 🟢 Existing |
-| 🏗️ Architecture Core | Architecture + integration | 🟢 Existing |
-| 🌐 AMRHZ Website | Public ecosystem hub | **UNKNOWN** — runtime not verified |
-| 🧠 Human–AI Memory Bridge | Shared-state architecture | 🟡 Proposed |
-| 🤖 Multi-agent orchestration | Agent expansion | 🟡 Development |
-| 🧬 Enhanced memory/retrieval | Context + retrieval | 🔵 Planned |
-| 🔄 Autonomous workflows | Future execution layer | 🔵 Planned |
-
-## 🛠️ TECHNOLOGY
-
-**Frontend:** HTML · CSS · JavaScript · TypeScript · React  
-**Backend:** Python · FastAPI · Flask · Node.js  
-**AI / Systems:** AI APIs · agent architectures · memory/context · API integration  
-**Infrastructure:** GitHub · Cloudflare Workers · deployment platforms · PostgreSQL runtime-state direction
-
-## 🗺️ ROADMAP
-
-- ✅ Foundation: prototypes, architecture, website, AP1 ecosystem, evidence-first protocol
-- 🔎 Current: broader tests, CI verification, runtime-state validation, observability
-- 🧬 Future: mission execution, multi-agent orchestration, evaluation, learning, expanded integrations
-
-## ♾️ AMRHZ PHILOSOPHY
-
-> **REAL STATE > UI SIMULATION**  
-> **EVIDENCE > CLAIM**  
-> **HUMAN INTENTION > AI ASSUMPTION**
-
-**Build → Test → Verify → Improve → Repeat.**
-
-<p align="center"><strong>♾️13 AMRHZ</strong><br/><sub>Human × AI × Systems</sub><br/><br/><a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">MAIN WEBSITE</a> · <a href="https://preview--ap1-ecosystem.lovable.app/">AP1 WORKSPACE</a> · <a href="https://github.com/amirulhafiz1132002-code/AP1-WEB-Console">AP1 PROJECT</a></p>
-
-## 📚 DOCUMENTATION
-
-- [AMRHZ Tool Registry](docs/AMRHZ-TOOL-REGISTRY.md) — evidence-based inventory of tools and technologies, with explicit distinctions between used, configured, tested, planned, blocked, and unknown states.
+<p align="center">
+  <strong>♾️13 AMRHZ</strong><br/>
+  Human × AI × Systems<br/>
+  <sub>Build → Test → Verify → Improve → Repeat.</sub>
+</p>
