@@ -1,12 +1,12 @@
-# ♾️ AMRHZ — Cyberdeck Interface
+# ♾️ AMRHZ — Systems Engineering Deck
 
 <p align="center">
-  <img src="./assets/amrhz-cyberdeck.svg" alt="AMRHZ Cyberdeck — Human intention, AI collaboration, evidence and verification" width="100%" />
+  <img src="./assets/amrhz-cyberdeck.svg" alt="AMRHZ Cyberdeck: human-directed engineering from intent to verified state" width="100%" />
 </p>
 
 <p align="center">
-  <strong>HUMAN-DIRECTED SYSTEMS · MODULAR AI · VERIFIABLE STATE</strong><br/>
-  Build systems, not just apps.
+  <strong>HUMAN-DIRECTED SYSTEMS · MODULAR AI · EVIDENCE-FIRST ENGINEERING</strong><br/>
+  <em>Build systems, not just apps.</em>
 </p>
 
 <p align="center">
@@ -17,105 +17,91 @@
 <p align="center">
   <a href="https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13">AMRHZ-AI-13</a> ·
   <a href="https://github.com/amirulhafiz1132002-code/amrhz-architecture-core">Architecture Core</a> ·
-  <a href="https://github.com/amirulhafiz1132002-code">All repositories</a>
+  <a href="https://github.com/amirulhafiz1132002-code">Repository Index</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PRINCIPLE-EVIDENCE%20%3E%20CLAIM-0b766e?style=flat-square" alt="Evidence over claims" />
-  <img src="https://img.shields.io/badge/CONTROL-HUMAN--DIRECTED-16324f?style=flat-square" alt="Human directed" />
-  <img src="https://img.shields.io/badge/ARCHITECTURE-MODULAR-234e52?style=flat-square" alt="Modular architecture" />
-  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/badge/GitHub-Source%20of%20truth-111827?style=flat-square&logo=github" alt="GitHub source of truth" /></a>
+  <img src="https://img.shields.io/badge/PRINCIPLE-EVIDENCE%20%3E%20CLAIM-0b766e?style=for-the-badge" alt="Evidence over claim" />
+  <img src="https://img.shields.io/badge/CONTROL-HUMAN--DIRECTED-16324f?style=for-the-badge" alt="Human directed" />
+  <img src="https://img.shields.io/badge/DESIGN-MODULAR-234e52?style=for-the-badge" alt="Modular design" />
 </p>
 
 ---
 
-## ◈ COMMAND DECK
+## ◈ 01 / SIGNAL MONITOR
 
-| Module | Purpose | Access |
+<p align="center">
+  <a href="https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/actions/workflows/eslint.yml"><img src="https://img.shields.io/github/actions/workflow/status/amirulhafiz1132002-code/amirulhafiz1132002-code/eslint.yml?branch=Amrhz&label=PROFILE%20ESLINT%20CI&style=for-the-badge&logo=githubactions&logoColor=white" alt="Profile repository ESLint workflow status on Amrhz" /></a>
+  <a href="https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/commits/Amrhz/"><img src="https://img.shields.io/github/last-commit/amirulhafiz1132002-code/amirulhafiz1132002-code/Amrhz?label=LAST%20PROFILE%20COMMIT&style=for-the-badge&logo=git&logoColor=white" alt="Last commit to profile repository branch Amrhz" /></a>
+  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/github/followers/amirulhafiz1132002-code?label=GITHUB%20FOLLOWERS&style=for-the-badge&logo=github" alt="GitHub follower count" /></a>
+</p>
+
+> **Signal integrity:** These badges display GitHub-hosted repository data. The CI badge reflects the workflow linked above; it does not prove that other projects, deployments, APIs, or AI agents are healthy. If data is unavailable or stale, inspect the source before drawing a conclusion.
+
+## ◈ 02 / COMMAND DECK
+
+| Module | Mission | Source |
 |---|---|---|
-| **01 / PUBLIC HUB** | Public identity and ecosystem entry point | [Open website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
-| **02 / AP1 WORKSPACE** | AP1 workspace preview | [Open workspace](https://preview--ap1-ecosystem.lovable.app/) |
-| **03 / ENGINEERING** | AP1 source, tests and engineering checkpoints | [Open repository](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
-| **04 / AI-13** | Early AI prototype and experiments | [Open repository](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
-| **05 / ARCHITECTURE** | Architecture and integration work | [Open repository](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
-| **06 / TOOL REGISTRY** | Evidence-based inventory of tools and technologies | [Read registry](docs/AMRHZ-TOOL-REGISTRY.md) |
+| **01 · PUBLIC HUB** | Public identity and ecosystem entry point | [Open website ↗](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
+| **02 · AP1 WORKSPACE** | Workspace preview and product direction | [Open workspace ↗](https://preview--ap1-ecosystem.lovable.app/) |
+| **03 · ENGINEERING CONSOLE** | AP1 source, tests and engineering checkpoints | [Inspect repository ↗](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
+| **04 · AMRHZ-AI-13** | Early AI prototype and experiments | [Inspect repository ↗](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
+| **05 · ARCHITECTURE CORE** | Architecture and integration work | [Inspect repository ↗](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
+| **06 · TOOL REGISTRY** | Evidence-based inventory of tools and technologies | [Read registry ↗](docs/AMRHZ-TOOL-REGISTRY.md) |
 
-> **Runtime boundary:** These are navigation links, not health checks. A destination is not considered LIVE or VERIFIED solely because a link exists. Runtime status remains UNKNOWN until current request/response evidence is recorded.
+*Navigation is not a health check. A working link does not mean the destination is LIVE or VERIFIED.*
 
-## ◈ SYSTEM PULSE
+## ◈ 03 / ENGINEERING IDENTITY
 
-| Field | Current record |
+I explore AI systems, APIs, software architecture, and Human–AI collaboration with a focus on making system behavior inspectable rather than merely impressive.
+
+**Operating loop**
+
+`INTENT → ACTION → EVIDENCE → VERIFIED STATE`
+
+**Engineering principles**
+
+- `REAL STATE > UI SIMULATION`
+- `EVIDENCE > CLAIM`
+- `HUMAN INTENTION > AI ASSUMPTION`
+- `STATE RECONCILIATION > STATE ASSUMPTION`
+- `CHANGE BOUNDARY > UNCONTROLLED AUTONOMY`
+- `EVIDENCE CHAIN > ISOLATED RESULTS`
+- `NEGATIVE EVIDENCE MATTERS`
+- `REPOSITORY REALITY > REPOSITORY APPEARANCE`
+
+## ◈ 04 / SYSTEM MATURITY
+
+| State | Meaning |
 |---|---|
-| **Identity** | AMRHZ — independent system developer |
-| **Focus** | AI systems · APIs · architecture · Human–AI collaboration |
-| **Operating model** | Stabilize → Verify → Connect → Extend |
-| **Current interface direction** | Cyberdeck-inspired profile and navigation |
-| **State of this visual** | **CONCEPTUAL UI** — the hero graphic is static, not live telemetry |
-| **Source of truth** | Repository contents, commit history and test evidence |
+| **CONCEPT** | Direction or visual idea; not implemented |
+| **PROPOSED / PLANNED** | Defined direction; implementation not yet established |
+| **DEVELOPMENT / PARTIAL** | Work exists, but scope or behavior is incomplete |
+| **VERIFIED** | A defined behavior passed a relevant test with inspectable evidence |
+| **LIVE** | Current runtime evidence confirms the specified service is operating |
+| **BLOCKED** | A known dependency or failure prevents progress |
+| **UNKNOWN** | Evidence is missing, stale, or insufficient |
 
-GitHub-native badges may show data supplied by GitHub. This profile does not invent runtime metrics, active-agent counts, uptime, or provider connections.
-
-## ◈ EXPAND THE DECK
-
-<details>
-<summary><strong>01 — Identity & operating principles</strong></summary>
-
-AMRHZ is building an ecosystem around AI, APIs, software architecture, Human–AI collaboration, and verifiable runtime state.
-
-> The goal is not to make systems merely look intelligent. The goal is to make their underlying state inspectable, testable, understandable, and real.
-
-**Core protocol**
-
-- REAL STATE > UI SIMULATION
-- EVIDENCE > CLAIM
-- HUMAN INTENTION > AI ASSUMPTION
-- STATE RECONCILIATION > STATE ASSUMPTION
-- CHANGE BOUNDARY > UNCONTROLLED AUTONOMY
-- EVIDENCE CHAIN > ISOLATED RESULTS
-- NEGATIVE EVIDENCE MATTERS
-- REPOSITORY REALITY > REPOSITORY APPEARANCE
-
-**Task loop:** INTENT → ACTION → EVIDENCE → VERIFIED STATE
-
-</details>
+A passing test proves only what that test covers. A successful build does not by itself prove deployment health. A model listed in a plan is not necessarily connected or running.
 
 <details>
-<summary><strong>02 — Human–AI collaboration model</strong></summary>
+<summary><strong>05 — Human–AI collaboration & bounded execution</strong></summary>
 
-The human owner defines intent, architecture, permissions, approval requirements, and the final interpretation of evidence. AI systems are contributors—not owners or final authorities.
-
-| Partner | Intended collaboration role |
-|---|---|
-| ChatGPT / GPT | Reasoning, architecture, planning, documentation and verification support |
-| GitHub Copilot | Coding assistance and repository development support |
-| Gemini | Comparative reasoning, experimentation and research synthesis |
-| Perplexity | External discovery and source-oriented investigation |
-| Meta AI | Additional perspective and ideation |
-
-These are documented workflow roles. They do **not** mean the tools are permanently connected, continuously active, or authorized to execute the system.
-
-**Multi-model boundary:** The architecture is intended to support a broad model ecosystem, potentially 300+ model endpoints/capabilities depending on availability, API access, authentication, compatibility, runtime configuration, cost, latency and policy. This is architectural reach—not a claim that 300+ models are connected or running.
-
-</details>
-
-<details>
-<summary><strong>03 — Architecture & bounded orchestration</strong></summary>
+The human owner defines intent, scope, permissions, approval requirements, and the interpretation of results. AI tools can contribute research, planning, coding, review, and verification support; they are not assumed to be continuously connected or authorized to act.
 
 ```text
 HUMAN INTENT
     ↓
-INTERPRETATION / PLANNING
+INTERPRET / PLAN
     ↓
-SCOPED MODEL OR MODULE
+SELECT SCOPED MODULE
     ↓
 PROPOSE → APPROVE → ACT
     ↓
-OBSERVED RESULT
+OBSERVE RESULT
     ↓
-EVIDENCE → VERIFICATION → UPDATED STATE
+COLLECT EVIDENCE → VERIFY → RECONCILE STATE
 ```
-
-Key distinctions:
 
 - Intent ≠ action
 - Action ≠ successful result
@@ -123,67 +109,61 @@ Key distinctions:
 - Available model ≠ connected model
 - Planned capability ≠ implemented capability
 
-The intended architecture prioritizes explicit permissions, observable execution, failure reporting, and human approval at defined boundaries.
+The long-term direction is modular, provider-flexible orchestration. Actual provider availability depends on credentials, API access, compatibility, runtime configuration, cost, latency, and policy.
 
 </details>
 
 <details>
-<summary><strong>04 — Project state & inspection links</strong></summary>
+<summary><strong>06 — Project checkpoints</strong></summary>
 
-| Project / environment | Recorded state | What to inspect |
+| Project / environment | Publicly recorded stance | Next evidence to inspect |
 |---|---|---|
-| AMRHZ public website | **UNKNOWN** — current runtime not checked here | [Website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
-| AP1 workspace preview | **UNKNOWN** — current runtime not checked here | [Workspace](https://preview--ap1-ecosystem.lovable.app/) |
-| AP1-WEB-Console | **DEVELOPMENT / VERIFY** — inspect current tests and CI before claiming broader readiness | [Source](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
-| AMRHZ-AI-13 | **DEVELOPMENT** — early prototype; runtime not established here | [Source](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
-| Architecture Core | **UNKNOWN** — current integration/runtime evidence not established here | [Source](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
-| Human–AI Memory Bridge | **PROPOSED** — architecture direction, not a verified shared-memory service | [Tool registry](docs/AMRHZ-TOOL-REGISTRY.md) |
+| AMRHZ public website | **UNKNOWN** — runtime not checked in this profile update | [Open website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
+| AP1 workspace preview | **UNKNOWN** — preview availability is not a health guarantee | [Open workspace](https://preview--ap1-ecosystem.lovable.app/) |
+| AP1-WEB-Console | **DEVELOPMENT / VERIFY** — inspect current CI and runtime separately | [Source and CI](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
+| AMRHZ-AI-13 | **DEVELOPMENT** — prototype maturity; no live claim here | [Source](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
+| Architecture Core | **UNKNOWN** — current integration state not established here | [Source](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
+| Human–AI Memory Bridge | **PROPOSED** — direction, not a verified shared-memory service | [Tool registry](docs/AMRHZ-TOOL-REGISTRY.md) |
 
-**State key:** CONCEPT · PROPOSED · PLANNED · DEVELOPMENT · PARTIAL · VERIFIED · LIVE · BLOCKED · UNKNOWN.
-
-LIVE / VERIFIED requires current evidence. Missing evidence stays UNKNOWN; failures are recorded rather than hidden.
+These are conservative documentation states, not automatic runtime probes. Re-check the linked evidence before relying on them.
 
 </details>
 
 <details>
-<summary><strong>05 — Engineering lifecycle & checkpoint rules</strong></summary>
+<summary><strong>07 — Engineering lifecycle & security</strong></summary>
 
-**Lifecycle:** STABILIZE → VERIFY → CONNECT → EXTEND
+**Lifecycle:** `STABILIZE → VERIFY → CONNECT → EXTEND`
 
-**Per-task loop:** INSPECT → MINIMAL SAFE CHANGE → TEST → PASS → CHECKPOINT
+**One-task loop:** `INSPECT → MINIMAL SAFE CHANGE → TEST → PASS → CHECKPOINT`
 
-**Maturity path:** CONCEPT → PROPOSED → PLANNED → DEVELOPMENT → PARTIAL → VERIFIED → LIVE
-
-Additional states: BLOCKED · DEPRECATED · UNKNOWN.
-
-The profile repository has an evidence-oriented tool registry and security policy. Read:
 - [AMRHZ Tool Registry](docs/AMRHZ-TOOL-REGISTRY.md)
 - [Security Policy](SECURITY.md)
+- [Profile repository commit history](https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/commits/Amrhz/)
 
 </details>
 
 <details>
-<summary><strong>06 — Technology & roadmap</strong></summary>
+<summary><strong>08 — Technology areas & roadmap</strong></summary>
 
-**Technology areas:** HTML · CSS · JavaScript · TypeScript · React · Python · FastAPI · Flask · Node.js · AI APIs · GitHub · Cloudflare Workers · PostgreSQL (runtime-state direction).
+**Areas of work:** HTML · CSS · JavaScript · TypeScript · React · Python · FastAPI · Flask · Node.js · AI APIs · GitHub Actions · Cloudflare Workers · data and state architecture.
 
 **Roadmap direction**
-- **Foundation:** prototypes, architecture, website, AP1 ecosystem and evidence-first protocol.
-- **Current engineering priority:** verification, CI, runtime-state validation and observability.
-- **Future direction:** mission execution, bounded multi-agent orchestration, evaluation, learning and expanded integrations.
+- **Foundation:** establish prototypes, architecture, and reliable engineering checkpoints.
+- **Current priority:** verification, CI integrity, runtime-state validation, and observability.
+- **Future exploration:** bounded task execution, multi-agent coordination, evaluation, memory, and integrations.
 
-These are areas and directions—not a claim that every component is deployed or connected.
+These are areas and directions—not a claim that every technology is deployed or connected.
 
 </details>
 
 <details>
-<summary><strong>07 — Public channels</strong></summary>
+<summary><strong>09 — Public channels</strong></summary>
 
-- [YouTube — @AMRHZ13](https://www.youtube.com/@AMRHZ13)
-- [Instagram — @amrhz13](https://www.instagram.com/amrhz13)
-- [X — @AMRHZ9](https://x.com/AMRHZ9)
-- [Facebook — AMRHZ](https://www.facebook.com/share/1KiYVb1j4g/)
-- [GitHub — @amirulhafiz1132002-code](https://github.com/amirulhafiz1132002-code)
+- [YouTube · @AMRHZ13](https://www.youtube.com/@AMRHZ13)
+- [Instagram · @amrhz13](https://www.instagram.com/amrhz13)
+- [X · @AMRHZ9](https://x.com/AMRHZ9)
+- [Facebook · AMRHZ](https://www.facebook.com/share/1KiYVb1j4g/)
+- [GitHub · @amirulhafiz1132002-code](https://github.com/amirulhafiz1132002-code)
 
 </details>
 
