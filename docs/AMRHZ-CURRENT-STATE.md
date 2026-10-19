@@ -154,3 +154,40 @@ The supplied upload log shows `eslint-results.sarif` was found and validated, fi
 
 Workflow remains: **STABILIZE → VERIFY → CONNECT → EXTEND**. Preserve the evidence chain; one task, one test, pass, then proceed.
 
+## Termux development workstation checkpoint — 2026-10-20
+
+### Audit status: DEVELOPMENT / PARTIAL
+
+The read-only audit examined the Android/Termux development environment and identified the following installed tools:
+
+- Neovim
+- Tree-sitter and installed language parsers
+- `clangd`
+- `inshellisense`
+- Git and GitHub CLI
+- Python and Node.js
+
+### Findings and boundaries
+
+- Several standard file-watcher commands were not found through PATH checks.
+- The checked Python language-server commands were not found.
+- `clangd` was found, but its project-level integration was not verified.
+- `inshellisense` was found; its actual interactive behavior was not yet tested.
+- The existing Neovim configuration and Tree-sitter integration still require inspection.
+- Process visibility is limited by the Android environment; the attempted `ps` format was incompatible with the installed implementation.
+- Eight processor entries were observed; this is not, by itself, proof of eight physical CPU cores.
+- No Termux configuration changes or package installations were performed during this audit.
+
+### Next verification steps
+
+1. Inspect `inshellisense --help` and test its behavior without changing shell configuration.
+2. Inspect the installed Neovim version and existing configuration files.
+3. Verify Tree-sitter parser availability and operation.
+4. Determine whether a file watcher or language server already exists elsewhere in the relevant project directories.
+5. Propose any installation or configuration change separately, after reviewing the inspection results.
+
+### Evidence boundary
+
+Tool discovery is not proof of functional integration. The workstation remains **DEVELOPMENT / PARTIAL** until the relevant behavior is tested and the results are recorded. No claim is made that IntelliSense, automated file watching, or the complete development workflow is operational.
+
+Workflow: **INSPECT → MINIMAL SAFE CHANGE → TEST → PASS → CHECKPOINT**.
