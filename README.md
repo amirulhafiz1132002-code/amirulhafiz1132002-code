@@ -70,6 +70,21 @@ I explore AI systems, APIs, software architecture, and Human–AI collaboration 
 - `NEGATIVE EVIDENCE MATTERS`
 - `REPOSITORY REALITY > REPOSITORY APPEARANCE`
 
+
+### REAL STATE × GEN Z × EVIDENCE
+
+**EVERYBODY COULD EVOLVE.**
+
+A proposed Human–AI Collaboration Protocol for making complex work understandable without sacrificing accuracy, helping people explore nonlinear ideas without losing workflow state, and separating ideas from tested and verified results.
+
+- **REAL STATE:** describe what actually exists.
+- **GEN Z:** adapt explanations to the person; simplify the language, not the evidence.
+- **EVIDENCE:** distinguish ideas, tests, verified results, and accomplished system state.
+
+The protocol is a documented direction, **not a claim that every capability is already implemented**.
+
+[Read the Human–AI Collaboration Protocol ↗](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13/blob/main/docs/HUMAN_AI_COLLABORATION_PROTOCOL.md)
+
 ## ◈ 04 / SYSTEM MATURITY
 
 | State | Meaning |
