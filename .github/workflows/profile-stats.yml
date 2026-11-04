@@ -1,0 +1,40 @@
+name: Refresh profile statistics
+
+on:
+  push:
+    branches: ["Amrhz"]
+    paths:
+      - "README.md"
+      - "scripts/generate_profile_stats.py"
+      - ".github/workflows/profile-stats.yml"
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate public GitHub statistics cards
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate SVG cards from GitHub public API
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_profile_stats.py
+
+      - name: Commit refreshed cards when data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "Statistics are unchanged; no commit required."
+          else
+            git commit -m "chore(profile): refresh GitHub statistics cards"
+            git push
+          fi
