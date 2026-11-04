@@ -49,52 +49,46 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amirulhafiz1132002-code&show_icons=true&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1&icon_color=2dd4bf&rank_icon=github" height="165" alt="GitHub profile statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirulhafiz1132002-code&layout=compact&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1" height="165" alt="Most used public repository languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=amirulhafiz1132002-code&show_icons=true&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1&icon_color=2dd4bf&rank_icon=github" width="100%" alt="GitHub profile statistics" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirulhafiz1132002-code&layout=compact&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1" width="100%" alt="Most used public repository languages" />
 </p>
 
 > **Counter and telemetry note:** Profile views, followers, visible stars, repository size, and commit time are GitHub or third-party badge data. Statistics cards may be cached, delayed, rate-limited, or temporarily unavailable. They are not AP1 runtime telemetry. The CI badge reports only the linked profile workflow.
 
 ## ◈ 02 / AP1 COMMAND DECK
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>◈ PUBLIC HUB</h3>
-      <p>AMRHZ public identity and ecosystem entry point.</p>
-      <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">OPEN MAIN WEBSITE ↗</a>
-    </td>
-    <td width="50%">
-      <h3>◈ AP1 WORKSPACE</h3>
-      <p>Workspace preview and product direction.</p>
-      <a href="https://preview--ap1-ecosystem.lovable.app/">OPEN AP1 WORKSPACE ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>◈ ENGINEERING CONSOLE</h3>
-      <p>AP1 source, tests, and engineering checkpoints.</p>
-      <a href="https://github.com/amirulhafiz1132002-code/AP1-WEB-Console">INSPECT SOURCE ↗</a>
-    </td>
-    <td>
-      <h3>◈ AMRHZ AI 13</h3>
-      <p>AI prototype, runtime experiments, and integration work.</p>
-      <a href="https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13">INSPECT PROJECT ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>◈ ARCHITECTURE CORE</h3>
-      <p>System architecture and integration foundations.</p>
-      <a href="https://github.com/amirulhafiz1132002-code/amrhz-architecture-core">INSPECT ARCHITECTURE ↗</a>
-    </td>
-    <td>
-      <h3>◈ TOOL REGISTRY</h3>
-      <p>Evidence-based inventory of tools and technologies.</p>
-      <a href="docs/AMRHZ-TOOL-REGISTRY.md">READ REGISTRY ↗</a>
-    </td>
-  </tr>
-</table>
+### ◈ 01 — PUBLIC HUB
+AMRHZ public identity and ecosystem entry point.
+
+[OPEN MAIN WEBSITE ↗](https://amrhz-websites.amirulhafiz1132002.workers.dev/)
+
+### ◈ 02 — AP1 WORKSPACE
+Workspace preview and product direction.
+
+[OPEN AP1 WORKSPACE ↗](https://preview--ap1-ecosystem.lovable.app/)
+
+### ◈ 03 — ENGINEERING CONSOLE
+AP1 source, tests, and engineering checkpoints.
+
+[INSPECT SOURCE ↗](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console)
+
+### ◈ 04 — AMRHZ AI 13
+AI prototype, runtime experiments, and integration work.
+
+[INSPECT PROJECT ↗](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13)
+
+### ◈ 05 — ARCHITECTURE CORE
+System architecture and integration foundations.
+
+[INSPECT ARCHITECTURE ↗](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core)
+
+### ◈ 06 — TOOL REGISTRY
+Evidence-based inventory of tools and technologies.
+
+[READ REGISTRY ↗](docs/AMRHZ-TOOL-REGISTRY.md)
 
 <p align="center">
   <sub>Navigation is not a health check. A working link does not prove a destination is LIVE or VERIFIED.</sub>
