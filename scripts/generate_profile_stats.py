@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Generate self-contained GitHub profile statistics SVGs from the public GitHub API."""
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -137,14 +136,15 @@ def main():
         raise RuntimeError("GITHUB_TOKEN is required; pass the workflow GITHUB_TOKEN.")
     profile = api_get(f"{API}/users/{USERNAME}")
     all_repos = fetch_repositories()
-    original_repos = [repo for repo in all_repos if not repo.get("fork", False)]
+    public_repos = [repo for repo in all_repos if not repo.get("private", False)]
+    original_repos = [repo for repo in public_repos if not repo.get("fork", False)]
     language_totals = fetch_language_totals(original_repos) if original_repos else {}
 
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "stats.svg").write_text(stats_svg(profile, all_repos), encoding="utf-8")
+    (OUT / "stats.svg").write_text(stats_svg(profile, public_repos), encoding="utf-8")
     (OUT / "top-langs.svg").write_text(languages_svg(language_totals), encoding="utf-8")
     print(
-        f"Generated profile cards: {len(all_repos)} owned public repositories; "
+        f"Generated profile cards: {len(public_repos)} owned public repositories; "
         f"{len(original_repos)} non-fork repositories with language data."
     )
 
