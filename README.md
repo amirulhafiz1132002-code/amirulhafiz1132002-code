@@ -49,14 +49,14 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amirulhafiz1132002-code&show_icons=true&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1&icon_color=2dd4bf&rank_icon=github" width="100%" alt="GitHub profile statistics" />
+  <img src="./profile/stats.svg" width="100%" alt="GitHub profile statistics generated from public GitHub API data" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirulhafiz1132002-code&layout=compact&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1" width="100%" alt="Most used public repository languages" />
+  <img src="./profile/top-langs.svg" width="100%" alt="Most used programming languages across owned public repositories" />
 </p>
 
-> **Counter and telemetry note:** Profile views, followers, visible stars, repository size, and commit time are GitHub or third-party badge data. Statistics cards may be cached, delayed, rate-limited, or temporarily unavailable. They are not AP1 runtime telemetry. The CI badge reports only the linked profile workflow.
+> **Counter and telemetry note:** Profile views, followers, visible stars, repository size, and commit time are GitHub or third-party badge data. The two statistics cards are generated as repository-hosted SVG files from GitHub's public API by GitHub Actions, with a daily refresh schedule and updates when their source changes. They reflect public repository data only and are not AP1 runtime telemetry. The CI badge reports only the linked profile workflow.
 
 ## ◈ 02 / AP1 COMMAND DECK
 
