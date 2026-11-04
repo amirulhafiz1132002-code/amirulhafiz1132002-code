@@ -1,7 +1,11 @@
-# ♾️ AMRHZ — Systems Engineering Deck
+# ♾️ AMRHZ — Human × AI × Systems
 
 <p align="center">
-  <img src="./assets/amrhz-cyberdeck.svg" alt="AMRHZ Cyberdeck: human-directed engineering from intent to verified state" width="100%" />
+  <img src="./assets/amrhz-cyberdeck.svg" alt="AMRHZ human-directed systems engineering deck" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/ap1-mark.svg" alt="AP1 by AMRHZ logo" width="148" />
 </p>
 
 <p align="center">
@@ -23,41 +27,86 @@
 <p align="center">
   <img src="https://img.shields.io/badge/PRINCIPLE-EVIDENCE%20%3E%20CLAIM-0b766e?style=for-the-badge" alt="Evidence over claim" />
   <img src="https://img.shields.io/badge/CONTROL-HUMAN--DIRECTED-16324f?style=for-the-badge" alt="Human directed" />
-  <img src="https://img.shields.io/badge/DESIGN-MODULAR-234e52?style=for-the-badge" alt="Modular design" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-MODULAR-234e52?style=for-the-badge" alt="Modular architecture" />
 </p>
 
 ---
 
-## ◈ 01 / SIGNAL MONITOR
+## ◈ 01 / LIVE PROFILE SIGNALS
 
 <p align="center">
-  <a href="https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/actions/workflows/eslint.yml"><img src="https://img.shields.io/github/actions/workflow/status/amirulhafiz1132002-code/amirulhafiz1132002-code/eslint.yml?branch=Amrhz&label=PROFILE%20ESLINT%20CI&style=for-the-badge&logo=githubactions&logoColor=white" alt="Profile repository ESLint workflow status on Amrhz" /></a>
-  <a href="https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/commits/Amrhz/"><img src="https://img.shields.io/github/last-commit/amirulhafiz1132002-code/amirulhafiz1132002-code/Amrhz?label=LAST%20PROFILE%20COMMIT&style=for-the-badge&logo=git&logoColor=white" alt="Last commit to profile repository branch Amrhz" /></a>
-  <a href="https://github.com/amirulhafiz1132002-code"><img src="https://img.shields.io/github/followers/amirulhafiz1132002-code?label=GITHUB%20FOLLOWERS&style=for-the-badge&logo=github" alt="GitHub follower count" /></a>
+  <img src="https://komarev.com/ghpvc/?username=amirulhafiz1132002-code&label=PROFILE%20VIEWS&color=0e7490&style=for-the-badge" alt="Profile view counter" />
+  <img src="https://img.shields.io/github/followers/amirulhafiz1132002-code?label=FOLLOWERS&style=for-the-badge&logo=github&color=164e63" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/amirulhafiz1132002-code?affiliations=OWNER%2CCOLLABORATOR&label=VISIBLE%20STARS&style=for-the-badge&color=0f766e" alt="Visible GitHub stars" />
+  <img src="https://img.shields.io/github/last-commit/amirulhafiz1132002-code/amirulhafiz1132002-code/Amrhz?label=PROFILE%20UPDATED&style=for-the-badge&logo=git&color=334155" alt="Last profile repository commit" />
 </p>
 
-> **Signal integrity:** These badges display GitHub-hosted repository data. The CI badge reflects the workflow linked above; it does not prove that other projects, deployments, APIs, or AI agents are healthy. If data is unavailable or stale, inspect the source before drawing a conclusion.
+<p align="center">
+  <a href="https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/actions/workflows/eslint.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/amirulhafiz1132002-code/amirulhafiz1132002-code/eslint.yml?branch=Amrhz&label=PROFILE%20ESLINT%20CI&style=for-the-badge&logo=githubactions&logoColor=white" alt="Profile ESLint workflow status" />
+  </a>
+  <img src="https://img.shields.io/github/repo-size/amirulhafiz1132002-code/amirulhafiz1132002-code?label=PROFILE%20REPO%20SIZE&style=for-the-badge&color=475569" alt="Profile repository size" />
+</p>
 
-## ◈ 02 / COMMAND DECK
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=amirulhafiz1132002-code&show_icons=true&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1&icon_color=2dd4bf&rank_icon=github" height="165" alt="GitHub profile statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirulhafiz1132002-code&layout=compact&hide_border=true&bg_color=071522&title_color=67e8f9&text_color=cbd5e1" height="165" alt="Most used public repository languages" />
+</p>
 
-| Module | Mission | Source |
-|---|---|---|
-| **01 · PUBLIC HUB** | Public identity and ecosystem entry point | [Open website ↗](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
-| **02 · AP1 WORKSPACE** | Workspace preview and product direction | [Open workspace ↗](https://preview--ap1-ecosystem.lovable.app/) |
-| **03 · ENGINEERING CONSOLE** | AP1 source, tests and engineering checkpoints | [Inspect repository ↗](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
-| **04 · AMRHZ-AI-13** | Early AI prototype and experiments | [Inspect repository ↗](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
-| **05 · ARCHITECTURE CORE** | Architecture and integration work | [Inspect repository ↗](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
-| **06 · TOOL REGISTRY** | Evidence-based inventory of tools and technologies | [Read registry ↗](docs/AMRHZ-TOOL-REGISTRY.md) |
+> **Counter and telemetry note:** Profile views, followers, visible stars, repository size, and commit time are GitHub or third-party badge data. Statistics cards may be cached, delayed, rate-limited, or temporarily unavailable. They are not AP1 runtime telemetry. The CI badge reports only the linked profile workflow.
 
-*Navigation is not a health check. A working link does not mean the destination is LIVE or VERIFIED.*
+## ◈ 02 / AP1 COMMAND DECK
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>◈ PUBLIC HUB</h3>
+      <p>AMRHZ public identity and ecosystem entry point.</p>
+      <a href="https://amrhz-websites.amirulhafiz1132002.workers.dev/">OPEN MAIN WEBSITE ↗</a>
+    </td>
+    <td width="50%">
+      <h3>◈ AP1 WORKSPACE</h3>
+      <p>Workspace preview and product direction.</p>
+      <a href="https://preview--ap1-ecosystem.lovable.app/">OPEN AP1 WORKSPACE ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>◈ ENGINEERING CONSOLE</h3>
+      <p>AP1 source, tests, and engineering checkpoints.</p>
+      <a href="https://github.com/amirulhafiz1132002-code/AP1-WEB-Console">INSPECT SOURCE ↗</a>
+    </td>
+    <td>
+      <h3>◈ AMRHZ AI 13</h3>
+      <p>AI prototype, runtime experiments, and integration work.</p>
+      <a href="https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13">INSPECT PROJECT ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>◈ ARCHITECTURE CORE</h3>
+      <p>System architecture and integration foundations.</p>
+      <a href="https://github.com/amirulhafiz1132002-code/amrhz-architecture-core">INSPECT ARCHITECTURE ↗</a>
+    </td>
+    <td>
+      <h3>◈ TOOL REGISTRY</h3>
+      <p>Evidence-based inventory of tools and technologies.</p>
+      <a href="docs/AMRHZ-TOOL-REGISTRY.md">READ REGISTRY ↗</a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>Navigation is not a health check. A working link does not prove a destination is LIVE or VERIFIED.</sub>
+</p>
 
 ## ◈ 03 / ENGINEERING IDENTITY
 
 I explore AI systems, APIs, software architecture, and Human–AI collaboration with a focus on making system behavior inspectable rather than merely impressive.
 
-**Operating loop**
-
-`INTENT → ACTION → EVIDENCE → VERIFIED STATE`
+<p align="center">
+  <strong>INTENT</strong> → <strong>ACTION</strong> → <strong>EVIDENCE</strong> → <strong>VERIFIED STATE</strong>
+</p>
 
 **Engineering principles**
 
@@ -69,7 +118,6 @@ I explore AI systems, APIs, software architecture, and Human–AI collaboration 
 - `EVIDENCE CHAIN > ISOLATED RESULTS`
 - `NEGATIVE EVIDENCE MATTERS`
 - `REPOSITORY REALITY > REPOSITORY APPEARANCE`
-
 
 ### REAL STATE × GEN Z × EVIDENCE
 
@@ -99,10 +147,26 @@ The protocol is a documented direction, **not a claim that every capability is a
 
 A passing test proves only what that test covers. A successful build does not by itself prove deployment health. A model listed in a plan is not necessarily connected or running.
 
-<details>
-<summary><strong>05 — Human–AI collaboration & bounded execution</strong></summary>
+## ◈ 05 / ENGINEERING CONSOLE
 
-The human owner defines intent, scope, permissions, approval requirements, and the interpretation of results. AI tools can contribute research, planning, coding, review, and verification support; they are not assumed to be continuously connected or authorized to act.
+A compact view of the operating model — illustrative documentation, not an executable AP1 terminal.
+
+```text
+┌──────────────────────────────────────────────────────┐
+│  AMRHZ / AP1 ENGINEERING CONSOLE                      │
+├──────────────────────────────────────────────────────┤
+│  OWNER       Human authority                          │
+│  AI ROLE     Research · Design · Code · Review        │
+│  CONTROL     Scoped · Approved · Auditable            │
+│  METHOD      AUDIT → PRIORITIZE → EXECUTE → VERIFY    │
+│  PRIORITY    Real state · Evidence · Reconciliation   │
+└──────────────────────────────────────────────────────┘
+```
+
+<details>
+<summary><strong>Human–AI collaboration & bounded execution</strong></summary>
+
+The human owner defines intent, scope, permissions, approval requirements, and interpretation of results. AI tools can contribute research, planning, coding, review, and verification support; they are not assumed to be continuously connected or authorized to act.
 
 ```text
 HUMAN INTENT
@@ -129,29 +193,28 @@ The long-term direction is modular, provider-flexible orchestration. Actual prov
 </details>
 
 <details>
-<summary><strong>06 — Project checkpoints</strong></summary>
+<summary><strong>Project checkpoints & evidence notes</strong></summary>
 
-| Project / environment | Publicly recorded stance | Next evidence to inspect |
+| Project / environment | Recorded stance | Evidence destination |
 |---|---|---|
 | AMRHZ public website | **UNKNOWN** — runtime not checked in this profile update | [Open website](https://amrhz-websites.amirulhafiz1132002.workers.dev/) |
 | AP1 workspace preview | **UNKNOWN** — preview availability is not a health guarantee | [Open workspace](https://preview--ap1-ecosystem.lovable.app/) |
-| AP1-WEB-Console | **DEVELOPMENT / VERIFY** — inspect current CI and runtime separately | [Source and CI](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
+| AP1-WEB-Console | **DEVELOPMENT / VERIFY** — inspect CI and runtime separately | [Source](https://github.com/amirulhafiz1132002-code/AP1-WEB-Console) |
 | AMRHZ-AI-13 | **DEVELOPMENT** — prototype maturity; no live claim here | [Source](https://github.com/amirulhafiz1132002-code/AMRHZ-AI-13) |
-| Termux development workstation | **DEVELOPMENT / PARTIAL** — tools found; editor, completion and watcher integration not yet verified | [Audit checkpoint](docs/AMRHZ-CURRENT-STATE.md#termux-development-workstation-checkpoint--2026-10-20) |
-
+| Termux workstation | **DEVELOPMENT / PARTIAL** — tools found; editor and watcher integration not verified | [Audit checkpoint](docs/AMRHZ-CURRENT-STATE.md#termux-development-workstation-checkpoint--2026-10-20) |
 | Architecture Core | **UNKNOWN** — current integration state not established here | [Source](https://github.com/amirulhafiz1132002-code/amrhz-architecture-core) |
 | Human–AI Memory Bridge | **PROPOSED** — direction, not a verified shared-memory service | [Tool registry](docs/AMRHZ-TOOL-REGISTRY.md) |
 
-**AMRHZ-AI-13 — latest verified checkpoint (2026-10-19):** A controlled Termux/Android test loaded the cached external `HuggingFaceTB/SmolLM2-135M-Instruct` base model through `ModelRuntime`; `AutoPilot` called the real runtime and returned the non-empty response `Hello!`. The integration test passed, and SHA-256 checks confirmed `data/brain_v2.csv` and `data/autopilot_history.csv` were unchanged during that run. Eight targeted runtime/integration/regression tests also passed (`8 passed in 0.06s`). **Important qualification:** the returned AutoPilot result still had `success: false` because the CSV candidate confidence was 50%, below the 60% threshold; that flag currently reflects candidate scoring, not an evaluation of the generated model response. The Termux run required a process-scoped `LD_PRELOAD` workaround for the `tokenizers` import issue. Permanent linker remediation, broader evaluation, AMRHZ-owned trained weights, and LIVE status remain **unverified**. This checkpoint establishes a tested integration path—not a completed or independently trained AMRHZ model.
+**AMRHZ-AI-13 — recorded test checkpoint (2026-10-19):** A controlled Termux/Android test loaded the cached external `HuggingFaceTB/SmolLM2-135M-Instruct` base model through `ModelRuntime`; `AutoPilot` called the runtime and returned the non-empty response `Hello!`. Eight targeted runtime/integration/regression tests passed (`8 passed in 0.06s`). SHA-256 checks confirmed `data/brain_v2.csv` and `data/autopilot_history.csv` were unchanged during that run. **Qualification:** the returned AutoPilot result still had `success: false` because CSV candidate confidence was 50%, below the 60% threshold; that flag reflects candidate scoring, not evaluation of the generated response. The run required a process-scoped `LD_PRELOAD` workaround for the `tokenizers` import issue. Permanent linker remediation, broader evaluation, AMRHZ-owned trained weights, and LIVE status remain **unverified**. This establishes a tested integration path—not a completed or independently trained AMRHZ model.
 
-**Termux development workstation — checkpoint (2026-10-20):** A read-only environment audit identified installed tools including Neovim, Tree-sitter, `clangd`, `inshellisense`, Git, Python, and Node.js. Standard file-watcher commands and several language-server commands were not found through the checked PATH/package queries. This does not prove that equivalent tools are absent elsewhere. Editor integration, shell suggestion behavior, language-server functionality, and file watching remain **unverified**. No Termux configuration changes were made during this audit. Next: test the discovered tools and inspect the Neovim configuration before installing or changing anything.
+**Termux workstation — recorded audit checkpoint (2026-10-20):** A read-only environment audit identified Neovim, Tree-sitter, `clangd`, `inshellisense`, Git, Python, and Node.js. Standard file-watcher commands and several language-server commands were not found through the checked PATH/package queries. This does not prove equivalent tools are absent elsewhere. Editor integration, shell suggestion behavior, language-server functionality, and file watching remain **unverified**. No Termux configuration changes were made during that audit.
 
-These are conservative documentation states, not automatic runtime probes. Re-check the linked evidence before relying on them.
+These are documented checkpoints, not automatic runtime probes. Re-check linked evidence before relying on them.
 
 </details>
 
 <details>
-<summary><strong>07 — Engineering lifecycle & security</strong></summary>
+<summary><strong>Engineering lifecycle, security & roadmap</strong></summary>
 
 **Lifecycle:** `STABILIZE → VERIFY → CONNECT → EXTEND`
 
@@ -161,12 +224,7 @@ These are conservative documentation states, not automatic runtime probes. Re-ch
 - [Security Policy](SECURITY.md)
 - [Profile repository commit history](https://github.com/amirulhafiz1132002-code/amirulhafiz1132002-code/commits/Amrhz/)
 
-</details>
-
-<details>
-<summary><strong>08 — Technology areas & roadmap</strong></summary>
-
-**Areas of work:** HTML · CSS · JavaScript · TypeScript · React · Python · FastAPI · Flask · Node.js · AI APIs · GitHub Actions · Cloudflare Workers · data and state architecture.
+**Technology areas:** HTML · CSS · JavaScript · TypeScript · React · Python · FastAPI · Flask · Node.js · AI APIs · GitHub Actions · Cloudflare Workers · data and state architecture.
 
 **Roadmap direction**
 - **Foundation:** establish prototypes, architecture, and reliable engineering checkpoints.
@@ -178,7 +236,7 @@ These are areas and directions—not a claim that every technology is deployed o
 </details>
 
 <details>
-<summary><strong>09 — Public channels</strong></summary>
+<summary><strong>Public channels</strong></summary>
 
 - [YouTube · @AMRHZ13](https://www.youtube.com/@AMRHZ13)
 - [Instagram · @amrhz13](https://www.instagram.com/amrhz13)
@@ -191,7 +249,7 @@ These are areas and directions—not a claim that every technology is deployed o
 ---
 
 <p align="center">
-  <strong>♾️13 AMRHZ</strong><br/>
+  <strong>♾️13 AMRHZ × AP1</strong><br/>
   Human × AI × Systems<br/>
   <sub>Build → Test → Verify → Improve → Repeat.</sub>
 </p>
