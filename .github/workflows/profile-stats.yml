@@ -24,7 +24,7 @@ jobs:
 
       - name: Generate SVG cards from GitHub public API
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate_profile_stats.py
 
       - name: Commit refreshed cards when data changes
