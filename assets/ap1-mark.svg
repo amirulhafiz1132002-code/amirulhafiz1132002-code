@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">AP1 by AMRHZ</title>
+  <desc id="desc">A geometric AP1 monogram representing modular human-directed systems engineering.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#0ea5a4"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="14" y="14" width="392" height="392" rx="54" fill="#071522" stroke="#164e63" stroke-width="3"/>
+  <path d="M68 310 158 92h44l90 218h-49l-20-53h-88l-20 53z" fill="none" stroke="url(#g)" stroke-width="18" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M151 215h83" stroke="#a5f3fc" stroke-width="13" stroke-linecap="round"/>
+  <path d="M244 126h46c45 0 68 24 68 64s-23 64-68 64h-46z" fill="none" stroke="#e2faff" stroke-width="15" stroke-linejoin="round"/>
+  <path d="M290 254v56" stroke="#2dd4bf" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="350" cy="310" r="10" fill="#67e8f9"/>
+  <text x="210" y="370" text-anchor="middle" fill="#bae6fd" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="6">AMRHZ SYSTEMS</text>
+</svg>
