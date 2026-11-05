@@ -139,7 +139,7 @@ def languages_svg(language_totals, snapshot):
                 f'<text x="28" y="{y + 13}" fill="#e2e8f0" font-size="13" font-family="Arial, sans-serif">{escape(language)}</text>',
                 f'<rect x="220" y="{y}" width="480" height="16" rx="8" fill="#183246"/>',
                 f'<rect x="220" y="{y}" width="{width:.2f}" height="16" rx="8" fill="{color}"/>',
-                f'<text x="720" y="{y + 13}" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Arial, sans-serif">{format_percentage(percent)}</text>',
+                f'<text x="720" y="{y + 13}" fill="#cbd5e1" font-size="12" text-anchor="end" font-family="Arial, sans-serif">{escape(format_percentage(percent))}</text>',
             ])
             y += 28
     pieces.append('</svg>')
