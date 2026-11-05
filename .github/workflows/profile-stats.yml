@@ -8,6 +8,13 @@ on:
       - "scripts/generate_profile_stats.py"
       - "tests/test_profile_stats.py"
       - ".github/workflows/profile-stats.yml"
+  pull_request:
+    branches: ["Amrhz"]
+    paths:
+      - "README.md"
+      - "scripts/generate_profile_stats.py"
+      - "tests/test_profile_stats.py"
+      - ".github/workflows/profile-stats.yml"
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
@@ -20,8 +27,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  generate:
-    name: Generate public GitHub statistics cards
+  test:
+    name: Validate profile statistics generator
     runs-on: ubuntu-latest
     steps:
       - name: Check out profile repository
@@ -29,6 +36,15 @@ jobs:
 
       - name: Run profile statistics unit tests
         run: python3 -m unittest tests.test_profile_stats
+
+  generate:
+    name: Generate public GitHub statistics cards
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
 
       - name: Generate SVG cards from GitHub public API
         env:
