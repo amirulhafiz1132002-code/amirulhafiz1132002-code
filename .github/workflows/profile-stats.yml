@@ -6,6 +6,7 @@ on:
     paths:
       - "README.md"
       - "scripts/generate_profile_stats.py"
+      - "tests/test_profile_stats.py"
       - ".github/workflows/profile-stats.yml"
   schedule:
     - cron: "17 2 * * *"
@@ -14,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-stats-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate:
     name: Generate public GitHub statistics cards
@@ -21,6 +26,9 @@ jobs:
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v4
+
+      - name: Run profile statistics unit tests
+        run: python3 -m unittest tests.test_profile_stats
 
       - name: Generate SVG cards from GitHub public API
         env:
