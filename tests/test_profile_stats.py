@@ -1,6 +1,6 @@
 """Unit tests for the AMRHZ GitHub profile statistics generator."""
 import unittest
-import xml.etree.ElementTree as ET
+from defusedxml import ElementTree as ET
 
 from scripts import generate_profile_stats as stats
 
