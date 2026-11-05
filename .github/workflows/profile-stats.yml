@@ -34,6 +34,9 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
+      - name: Install XML test dependency
+        run: python3 -m pip install defusedxml
+
       - name: Run profile statistics unit tests
         run: python3 -m unittest tests.test_profile_stats
 
