@@ -1,5 +1,4 @@
 """Unit tests for the AMRHZ GitHub profile statistics generator."""
-import re
 import unittest
 
 from scripts import generate_profile_stats as stats
@@ -21,7 +20,7 @@ class ProfileStatsTests(unittest.TestCase):
     def test_snapshot_timestamp_is_utc(self):
         self.assertRegex(
             stats.snapshot_timestamp(),
-            r"^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2} UTC$",
+            r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC$",
         )
 
     def test_repository_count_uses_fetched_public_repository_list(self):
